@@ -1,0 +1,4459 @@
+{
+  "summary": {
+    "totalGames": 795,
+    "correctPredictions": 384,
+    "accuracy": 0.4830188679245283,
+    "avgConfidence": 0.7248955974842769,
+    "avgEdge": 3.7328301886792477,
+    "modelPerformance": {
+      "Model_A_Pitching": {
+        "accuracy": 0.4981132075471698,
+        "totalGames": 795,
+        "correctPredictions": 396,
+        "avgConfidence": 0.7274014953008123
+      },
+      "Model_B_Offense": {
+        "accuracy": 0.4716981132075472,
+        "totalGames": 795,
+        "correctPredictions": 375,
+        "avgConfidence": 0.6976224137524512
+      },
+      "Model_C_Weather_Park": {
+        "accuracy": 0.49056603773584906,
+        "totalGames": 795,
+        "correctPredictions": 390,
+        "avgConfidence": 0.7504535701751645
+      },
+      "Model_D_Market_Sentiment": {
+        "accuracy": 0.48553459119496856,
+        "totalGames": 795,
+        "correctPredictions": 386,
+        "avgConfidence": 0.7240911031259335
+      }
+    },
+    "confidenceBrackets": {
+      "High (>75%)": {
+        "games": 199,
+        "accuracy": 0.5226130653266332
+      },
+      "Medium (60-75%)": {
+        "games": 596,
+        "accuracy": 0.4697986577181208
+      },
+      "Low (<60%)": {
+        "games": 0,
+        "accuracy": 0
+      }
+    },
+    "profitLoss": {
+      "totalUnits": 795,
+      "roi": -7.791698113207533,
+      "maxDrawdown": 65.30699999999989,
+      "winStreak": 11,
+      "loseStreak": 10
+    }
+  },
+  "results": [
+    {
+      "gameId": "2025-05-16_ChicagoWhiteSox@ChicagoCubs",
+      "gameDate": "2025-05-16",
+      "predictedTotal": 9.3,
+      "actualTotal": 16,
+      "prediction": "Over",
+      "actualResult": "Over",
+      "correct": true,
+      "confidence": 0.736,
+      "edge": 6.699999999999999,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Over",
+          "total": 9.7,
+          "confidence": 0.8466292242973028,
+          "correct": true
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 10.3,
+          "confidence": 0.5834628118573266,
+          "correct": true
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Over",
+          "total": 8.6,
+          "confidence": 0.7009699119846952,
+          "correct": true
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Over",
+          "total": 8.6,
+          "confidence": 0.8111115464399072,
+          "correct": true
+        }
+      },
+      "weatherData": {
+        "temp_f": 92.7,
+        "wind_mph": 10.8,
+        "wind_dir": "W",
+        "humidity": 62,
+        "condition": "few clouds"
+      }
+    },
+    {
+      "gameId": "2025-05-16_ClevelandGuardians@CincinnatiReds",
+      "gameDate": "2025-05-16",
+      "predictedTotal": 8.7,
+      "actualTotal": 9,
+      "prediction": "Over",
+      "actualResult": "Over",
+      "correct": true,
+      "confidence": 0.745,
+      "edge": 0.3000000000000007,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Under",
+          "total": 8.3,
+          "confidence": 0.7460197021710973,
+          "correct": false
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 9.3,
+          "confidence": 0.7201238942153926,
+          "correct": true
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Over",
+          "total": 8.8,
+          "confidence": 0.7790558647135699,
+          "correct": true
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Under",
+          "total": 8.4,
+          "confidence": 0.7353423984244856,
+          "correct": false
+        }
+      },
+      "weatherData": {
+        "temp_f": 94.1,
+        "wind_mph": 14.6,
+        "wind_dir": "W",
+        "humidity": 59,
+        "condition": "few clouds"
+      }
+    },
+    {
+      "gameId": "2025-05-16_PittsburghPirates@PhiladelphiaPhillies",
+      "gameDate": "2025-05-16",
+      "predictedTotal": 8.8,
+      "actualTotal": 12,
+      "prediction": "Over",
+      "actualResult": "Over",
+      "correct": true,
+      "confidence": 0.726,
+      "edge": 3.1999999999999993,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Under",
+          "total": 8.4,
+          "confidence": 0.6763219465980177,
+          "correct": false
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 9.6,
+          "confidence": 0.7343010672498803,
+          "correct": true
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Under",
+          "total": 8.5,
+          "confidence": 0.7968887834163126,
+          "correct": false
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Over",
+          "total": 8.6,
+          "confidence": 0.6974979235261978,
+          "correct": true
+        }
+      },
+      "weatherData": {
+        "temp_f": 91.7,
+        "wind_mph": 9.6,
+        "wind_dir": "NE",
+        "humidity": 69,
+        "condition": "scattered clouds"
+      }
+    },
+    {
+      "gameId": "2025-05-16_WashingtonNationals@BaltimoreOrioles",
+      "gameDate": "2025-05-16",
+      "predictedTotal": 8.9,
+      "actualTotal": 7,
+      "prediction": "Over",
+      "actualResult": "Under",
+      "correct": false,
+      "confidence": 0.796,
+      "edge": 1.9000000000000004,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Over",
+          "total": 9.1,
+          "confidence": 0.7802965725559257,
+          "correct": false
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 9.8,
+          "confidence": 0.7529730969180006,
+          "correct": false
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Under",
+          "total": 8.3,
+          "confidence": 0.8432045527993876,
+          "correct": true
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Over",
+          "total": 8.6,
+          "confidence": 0.8058563100319529,
+          "correct": false
+        }
+      },
+      "weatherData": {
+        "temp_f": 87.8,
+        "wind_mph": 10.1,
+        "wind_dir": "N",
+        "humidity": 69,
+        "condition": "scattered clouds"
+      }
+    },
+    {
+      "gameId": "2025-05-16_NewYorkMets@NewYorkYankees",
+      "gameDate": "2025-05-16",
+      "predictedTotal": 8.7,
+      "actualTotal": 8,
+      "prediction": "Over",
+      "actualResult": "Under",
+      "correct": false,
+      "confidence": 0.771,
+      "edge": 0.6999999999999993,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Under",
+          "total": 7.6,
+          "confidence": 0.7817879532126627,
+          "correct": true
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 9.5,
+          "confidence": 0.7421890924860562,
+          "correct": false
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Over",
+          "total": 9.2,
+          "confidence": 0.8352738618943907,
+          "correct": false
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Under",
+          "total": 8.5,
+          "confidence": 0.7254282615268226,
+          "correct": true
+        }
+      },
+      "weatherData": {
+        "temp_f": 89.6,
+        "wind_mph": 10.8,
+        "wind_dir": "N",
+        "humidity": 72,
+        "condition": "scattered clouds"
+      }
+    },
+    {
+      "gameId": "2025-05-16_DetroitTigers@TorontoBlueJays",
+      "gameDate": "2025-05-16",
+      "predictedTotal": 8.9,
+      "actualTotal": 9,
+      "prediction": "Over",
+      "actualResult": "Over",
+      "correct": true,
+      "confidence": 0.752,
+      "edge": 0.09999999999999964,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Over",
+          "total": 9.5,
+          "confidence": 0.744413028010609,
+          "correct": true
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 8.6,
+          "confidence": 0.7794016962874933,
+          "correct": true
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Over",
+          "total": 9,
+          "confidence": 0.7100890216529179,
+          "correct": true
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Over",
+          "total": 8.6,
+          "confidence": 0.7723001989080241,
+          "correct": true
+        }
+      },
+      "weatherData": {
+        "temp_f": 93.1,
+        "wind_mph": 14.6,
+        "wind_dir": "N",
+        "humidity": 70,
+        "condition": "scattered clouds"
+      }
+    },
+    {
+      "gameId": "2025-05-16_AtlantaBraves@BostonRedSox",
+      "gameDate": "2025-05-16",
+      "predictedTotal": 8.6,
+      "actualTotal": 6,
+      "prediction": "Over",
+      "actualResult": "Under",
+      "correct": false,
+      "confidence": 0.685,
+      "edge": 2.5999999999999996,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Under",
+          "total": 8.2,
+          "confidence": 0.6113896795003843,
+          "correct": true
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 8.6,
+          "confidence": 0.6175958238514591,
+          "correct": false
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Over",
+          "total": 9.1,
+          "confidence": 0.760674640044128,
+          "correct": false
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Over",
+          "total": 8.6,
+          "confidence": 0.7522324642962972,
+          "correct": false
+        }
+      },
+      "weatherData": {
+        "temp_f": 86.6,
+        "wind_mph": 4.8,
+        "wind_dir": "S",
+        "humidity": 68,
+        "condition": "scattered clouds"
+      }
+    },
+    {
+      "gameId": "2025-05-16_TampaBayRays@MiamiMarlins",
+      "gameDate": "2025-05-16",
+      "predictedTotal": 8.7,
+      "actualTotal": 13,
+      "prediction": "Over",
+      "actualResult": "Over",
+      "correct": true,
+      "confidence": 0.761,
+      "edge": 4.300000000000001,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Under",
+          "total": 7.9,
+          "confidence": 0.7412009488141225,
+          "correct": false
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 9.5,
+          "confidence": 0.8341507868321868,
+          "correct": true
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Over",
+          "total": 9,
+          "confidence": 0.8080799715369419,
+          "correct": true
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Under",
+          "total": 8.3,
+          "confidence": 0.6612448126760337,
+          "correct": false
+        }
+      },
+      "weatherData": {
+        "temp_f": 85.5,
+        "wind_mph": 10.4,
+        "wind_dir": "W",
+        "humidity": 67,
+        "condition": "scattered clouds"
+      }
+    },
+    {
+      "gameId": "2025-05-16_St.LouisCardinals@KansasCityRoyals",
+      "gameDate": "2025-05-16",
+      "predictedTotal": 8.6,
+      "actualTotal": 13,
+      "prediction": "Over",
+      "actualResult": "Over",
+      "correct": true,
+      "confidence": 0.682,
+      "edge": 4.4,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Over",
+          "total": 8.6,
+          "confidence": 0.8018821494703143,
+          "correct": true
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 8.7,
+          "confidence": 0.5932303061360985,
+          "correct": true
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Over",
+          "total": 8.6,
+          "confidence": 0.7334484343363983,
+          "correct": true
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Under",
+          "total": 8.4,
+          "confidence": 0.6006673109589428,
+          "correct": false
+        }
+      },
+      "weatherData": {
+        "temp_f": 89.5,
+        "wind_mph": 8.4,
+        "wind_dir": "SE",
+        "humidity": 71,
+        "condition": "few clouds"
+      }
+    },
+    {
+      "gameId": "2025-05-17_HoustonAstros@TexasRangers",
+      "gameDate": "2025-05-17",
+      "predictedTotal": 9.3,
+      "actualTotal": 9,
+      "prediction": "Over",
+      "actualResult": "Over",
+      "correct": true,
+      "confidence": 0.775,
+      "edge": 0.3000000000000007,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Over",
+          "total": 9,
+          "confidence": 0.8180556006037373,
+          "correct": true
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 11,
+          "confidence": 0.8033730429539925,
+          "correct": true
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Over",
+          "total": 8.7,
+          "confidence": 0.6696333809355565,
+          "correct": true
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Under",
+          "total": 8.3,
+          "confidence": 0.807440104010236,
+          "correct": false
+        }
+      },
+      "weatherData": {
+        "temp_f": 88.9,
+        "wind_mph": 13.4,
+        "wind_dir": "N",
+        "humidity": 64,
+        "condition": "few clouds"
+      }
+    },
+    {
+      "gameId": "2025-05-17_MinnesotaTwins@MilwaukeeBrewers",
+      "gameDate": "2025-05-17",
+      "predictedTotal": 8.8,
+      "actualTotal": 3,
+      "prediction": "Over",
+      "actualResult": "Under",
+      "correct": false,
+      "confidence": 0.689,
+      "edge": 5.800000000000001,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Over",
+          "total": 8.7,
+          "confidence": 0.7023124292028935,
+          "correct": false
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 9,
+          "confidence": 0.5609213516375627,
+          "correct": false
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Over",
+          "total": 8.9,
+          "confidence": 0.7414553378992084,
+          "correct": false
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Over",
+          "total": 8.6,
+          "confidence": 0.7518147426902713,
+          "correct": false
+        }
+      },
+      "weatherData": {
+        "temp_f": 93.5,
+        "wind_mph": 8.3,
+        "wind_dir": "NW",
+        "humidity": 62,
+        "condition": "few clouds"
+      }
+    },
+    {
+      "gameId": "2025-05-17_ColoradoRockies@ArizonaDiamondbacks",
+      "gameDate": "2025-05-17",
+      "predictedTotal": 8.9,
+      "actualTotal": 8,
+      "prediction": "Over",
+      "actualResult": "Under",
+      "correct": false,
+      "confidence": 0.665,
+      "edge": 0.9000000000000004,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Over",
+          "total": 8.5,
+          "confidence": 0.6777136241615132,
+          "correct": false
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 8.9,
+          "confidence": 0.5926624567936258,
+          "correct": false
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Over",
+          "total": 9.4,
+          "confidence": 0.7432705321535639,
+          "correct": false
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Over",
+          "total": 8.7,
+          "confidence": 0.645376584955121,
+          "correct": false
+        }
+      },
+      "weatherData": {
+        "temp_f": 91,
+        "wind_mph": 7.2,
+        "wind_dir": "NW",
+        "humidity": 69,
+        "condition": "clear sky"
+      }
+    },
+    {
+      "gameId": "2025-05-17_SeattleMariners@SanDiegoPadres",
+      "gameDate": "2025-05-17",
+      "predictedTotal": 8.9,
+      "actualTotal": 6,
+      "prediction": "Over",
+      "actualResult": "Under",
+      "correct": false,
+      "confidence": 0.7,
+      "edge": 2.9000000000000004,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Over",
+          "total": 8.8,
+          "confidence": 0.6183032675442033,
+          "correct": false
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 9.3,
+          "confidence": 0.7259731862809118,
+          "correct": false
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Over",
+          "total": 9.1,
+          "confidence": 0.7277812526870869,
+          "correct": false
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Under",
+          "total": 8.4,
+          "confidence": 0.7282818811057448,
+          "correct": true
+        }
+      },
+      "weatherData": {
+        "temp_f": 94.2,
+        "wind_mph": 13.2,
+        "wind_dir": "NW",
+        "humidity": 74,
+        "condition": "scattered clouds"
+      }
+    },
+    {
+      "gameId": "2025-05-17_LosAngelesAngels@LosAngelesDodgers",
+      "gameDate": "2025-05-17",
+      "predictedTotal": 9.1,
+      "actualTotal": 8,
+      "prediction": "Over",
+      "actualResult": "Under",
+      "correct": false,
+      "confidence": 0.68,
+      "edge": 1.0999999999999996,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Under",
+          "total": 7.9,
+          "confidence": 0.6738986257133972,
+          "correct": true
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 11.4,
+          "confidence": 0.6396846642299416,
+          "correct": false
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Under",
+          "total": 8.4,
+          "confidence": 0.7297416654753838,
+          "correct": true
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Over",
+          "total": 8.6,
+          "confidence": 0.6763679325832664,
+          "correct": false
+        }
+      },
+      "weatherData": {
+        "temp_f": 82.4,
+        "wind_mph": 7,
+        "wind_dir": "SW",
+        "humidity": 49,
+        "condition": "few clouds"
+      }
+    },
+    {
+      "gameId": "2025-05-17_Athletics@SanFranciscoGiants",
+      "gameDate": "2025-05-17",
+      "predictedTotal": 8.9,
+      "actualTotal": 10,
+      "prediction": "Over",
+      "actualResult": "Over",
+      "correct": true,
+      "confidence": 0.781,
+      "edge": 1.0999999999999996,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Under",
+          "total": 8.5,
+          "confidence": 0.7776760754354973,
+          "correct": false
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 9.6,
+          "confidence": 0.7847442689609084,
+          "correct": true
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Over",
+          "total": 9.1,
+          "confidence": 0.7679227827937836,
+          "correct": true
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Under",
+          "total": 8.4,
+          "confidence": 0.7943696176901425,
+          "correct": false
+        }
+      },
+      "weatherData": {
+        "temp_f": 73.7,
+        "wind_mph": 17.1,
+        "wind_dir": "SW",
+        "humidity": 76,
+        "condition": "few clouds"
+      }
+    },
+    {
+      "gameId": "2025-05-17_NewYorkMets@NewYorkYankees",
+      "gameDate": "2025-05-17",
+      "predictedTotal": 9.2,
+      "actualTotal": 5,
+      "prediction": "Over",
+      "actualResult": "Under",
+      "correct": false,
+      "confidence": 0.712,
+      "edge": 4.199999999999999,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Under",
+          "total": 7.5,
+          "confidence": 0.7021561883469639,
+          "correct": true
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 11.3,
+          "confidence": 0.7080558576557101,
+          "correct": false
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Over",
+          "total": 9.4,
+          "confidence": 0.780013162312806,
+          "correct": false
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Over",
+          "total": 8.5,
+          "confidence": 0.657543816365623,
+          "correct": false
+        }
+      },
+      "weatherData": {
+        "temp_f": 85.3,
+        "wind_mph": 10.2,
+        "wind_dir": "NW",
+        "humidity": 66,
+        "condition": "clear sky"
+      }
+    },
+    {
+      "gameId": "2025-05-17_ChicagoWhiteSox@ChicagoCubs",
+      "gameDate": "2025-05-17",
+      "predictedTotal": 8.8,
+      "actualTotal": 10,
+      "prediction": "Over",
+      "actualResult": "Over",
+      "correct": true,
+      "confidence": 0.699,
+      "edge": 1.1999999999999993,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Over",
+          "total": 8.8,
+          "confidence": 0.6070809590569421,
+          "correct": true
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 9.3,
+          "confidence": 0.6777570150724472,
+          "correct": true
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Under",
+          "total": 8.4,
+          "confidence": 0.8358013302208149,
+          "correct": false
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Over",
+          "total": 8.7,
+          "confidence": 0.6770950988114564,
+          "correct": true
+        }
+      },
+      "weatherData": {
+        "temp_f": 92.3,
+        "wind_mph": 11.4,
+        "wind_dir": "NE",
+        "humidity": 73,
+        "condition": "clear sky"
+      }
+    },
+    {
+      "gameId": "2025-05-17_DetroitTigers@TorontoBlueJays",
+      "gameDate": "2025-05-17",
+      "predictedTotal": 8.8,
+      "actualTotal": 3,
+      "prediction": "Over",
+      "actualResult": "Under",
+      "correct": false,
+      "confidence": 0.788,
+      "edge": 5.800000000000001,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Under",
+          "total": 8.5,
+          "confidence": 0.781623022150723,
+          "correct": true
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 9.7,
+          "confidence": 0.8332589695528076,
+          "correct": false
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Over",
+          "total": 8.6,
+          "confidence": 0.7348822534959261,
+          "correct": false
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Under",
+          "total": 8.4,
+          "confidence": 0.800495748736699,
+          "correct": true
+        }
+      },
+      "weatherData": {
+        "temp_f": 93.1,
+        "wind_mph": 13.7,
+        "wind_dir": "SW",
+        "humidity": 64,
+        "condition": "clear sky"
+      }
+    },
+    {
+      "gameId": "2025-05-17_WashingtonNationals@BaltimoreOrioles",
+      "gameDate": "2025-05-17",
+      "predictedTotal": 9.2,
+      "actualTotal": 16,
+      "prediction": "Over",
+      "actualResult": "Over",
+      "correct": true,
+      "confidence": 0.734,
+      "edge": 6.800000000000001,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Over",
+          "total": 9.8,
+          "confidence": 0.8275028756488904,
+          "correct": true
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 10.2,
+          "confidence": 0.6995951206359,
+          "correct": true
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Under",
+          "total": 8.5,
+          "confidence": 0.7455791530630963,
+          "correct": false
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Under",
+          "total": 8.4,
+          "confidence": 0.6636782953493193,
+          "correct": false
+        }
+      },
+      "weatherData": {
+        "temp_f": 87,
+        "wind_mph": 14.2,
+        "wind_dir": "E",
+        "humidity": 75,
+        "condition": "few clouds"
+      }
+    },
+    {
+      "gameId": "2025-05-17_TampaBayRays@MiamiMarlins",
+      "gameDate": "2025-05-17",
+      "predictedTotal": 8.5,
+      "actualTotal": 4,
+      "prediction": "Under",
+      "actualResult": "Under",
+      "correct": true,
+      "confidence": 0.733,
+      "edge": 4.5,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Over",
+          "total": 8.5,
+          "confidence": 0.7725492888867156,
+          "correct": false
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 8.6,
+          "confidence": 0.7451636439370116,
+          "correct": false
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Over",
+          "total": 8.6,
+          "confidence": 0.771768675272346,
+          "correct": false
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Under",
+          "total": 8.3,
+          "confidence": 0.6437574277479438,
+          "correct": true
+        }
+      },
+      "weatherData": {
+        "temp_f": 92.7,
+        "wind_mph": 14.7,
+        "wind_dir": "E",
+        "humidity": 56,
+        "condition": "scattered clouds"
+      }
+    },
+    {
+      "gameId": "2025-05-17_PittsburghPirates@PhiladelphiaPhillies",
+      "gameDate": "2025-05-17",
+      "predictedTotal": 8.7,
+      "actualTotal": 7,
+      "prediction": "Over",
+      "actualResult": "Under",
+      "correct": false,
+      "confidence": 0.747,
+      "edge": 1.6999999999999993,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Over",
+          "total": 8.6,
+          "confidence": 0.8381248694149863,
+          "correct": false
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 8.6,
+          "confidence": 0.8417874341823938,
+          "correct": false
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Over",
+          "total": 8.9,
+          "confidence": 0.6688430415161504,
+          "correct": false
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Over",
+          "total": 8.7,
+          "confidence": 0.6388637417366083,
+          "correct": false
+        }
+      },
+      "weatherData": {
+        "temp_f": 84.8,
+        "wind_mph": 11.6,
+        "wind_dir": "NW",
+        "humidity": 73,
+        "condition": "few clouds"
+      }
+    },
+    {
+      "gameId": "2025-05-17_ClevelandGuardians@CincinnatiReds",
+      "gameDate": "2025-05-17",
+      "predictedTotal": 8.4,
+      "actualTotal": 5,
+      "prediction": "Under",
+      "actualResult": "Under",
+      "correct": true,
+      "confidence": 0.717,
+      "edge": 3.4000000000000004,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Over",
+          "total": 8.6,
+          "confidence": 0.7228093504606337,
+          "correct": false
+        },
+        "Model_B_Offense": {
+          "prediction": "Under",
+          "total": 7.7,
+          "confidence": 0.6316046432494948,
+          "correct": true
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Over",
+          "total": 8.7,
+          "confidence": 0.7674070508648738,
+          "correct": false
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Over",
+          "total": 8.7,
+          "confidence": 0.7455194018708067,
+          "correct": false
+        }
+      },
+      "weatherData": {
+        "temp_f": 85.8,
+        "wind_mph": 13.2,
+        "wind_dir": "W",
+        "humidity": 62,
+        "condition": "scattered clouds"
+      }
+    },
+    {
+      "gameId": "2025-05-17_HoustonAstros@TexasRangers",
+      "gameDate": "2025-05-17",
+      "predictedTotal": 9.1,
+      "actualTotal": 6,
+      "prediction": "Over",
+      "actualResult": "Under",
+      "correct": false,
+      "confidence": 0.669,
+      "edge": 3.0999999999999996,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Over",
+          "total": 8.6,
+          "confidence": 0.6198567135054922,
+          "correct": false
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 10.3,
+          "confidence": 0.6142372012751514,
+          "correct": false
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Over",
+          "total": 9.1,
+          "confidence": 0.6896732740108084,
+          "correct": false
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Under",
+          "total": 8.3,
+          "confidence": 0.7518198726931575,
+          "correct": true
+        }
+      },
+      "weatherData": {
+        "temp_f": 93.5,
+        "wind_mph": 14.6,
+        "wind_dir": "SE",
+        "humidity": 58,
+        "condition": "scattered clouds"
+      }
+    },
+    {
+      "gameId": "2025-05-17_St.LouisCardinals@KansasCityRoyals",
+      "gameDate": "2025-05-17",
+      "predictedTotal": 8.6,
+      "actualTotal": 1,
+      "prediction": "Over",
+      "actualResult": "Under",
+      "correct": false,
+      "confidence": 0.692,
+      "edge": 7.6,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Over",
+          "total": 8.6,
+          "confidence": 0.6021031900440499,
+          "correct": false
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 9.2,
+          "confidence": 0.6141839530431026,
+          "correct": false
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Under",
+          "total": 8.3,
+          "confidence": 0.74364538967951,
+          "correct": true
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Under",
+          "total": 8.5,
+          "confidence": 0.8066947171640524,
+          "correct": true
+        }
+      },
+      "weatherData": {
+        "temp_f": 86.2,
+        "wind_mph": 11.9,
+        "wind_dir": "SE",
+        "humidity": 60,
+        "condition": "clear sky"
+      }
+    },
+    {
+      "gameId": "2025-05-17_AtlantaBraves@BostonRedSox",
+      "gameDate": "2025-05-17",
+      "predictedTotal": 8.8,
+      "actualTotal": 13,
+      "prediction": "Over",
+      "actualResult": "Over",
+      "correct": true,
+      "confidence": 0.759,
+      "edge": 4.199999999999999,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Under",
+          "total": 8.2,
+          "confidence": 0.8431984964796574,
+          "correct": false
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 9.6,
+          "confidence": 0.6395270664617901,
+          "correct": true
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Over",
+          "total": 9.2,
+          "confidence": 0.8054795739111869,
+          "correct": true
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Under",
+          "total": 8.3,
+          "confidence": 0.7473940745174199,
+          "correct": false
+        }
+      },
+      "weatherData": {
+        "temp_f": 89.1,
+        "wind_mph": 11.8,
+        "wind_dir": "SE",
+        "humidity": 65,
+        "condition": "few clouds"
+      }
+    },
+    {
+      "gameId": "2025-05-17_MinnesotaTwins@MilwaukeeBrewers",
+      "gameDate": "2025-05-17",
+      "predictedTotal": 8.7,
+      "actualTotal": 7,
+      "prediction": "Over",
+      "actualResult": "Under",
+      "correct": false,
+      "confidence": 0.729,
+      "edge": 1.6999999999999993,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Under",
+          "total": 8,
+          "confidence": 0.8165646664033164,
+          "correct": true
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 8.9,
+          "confidence": 0.6805031127366926,
+          "correct": false
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Over",
+          "total": 9.2,
+          "confidence": 0.7322423656415273,
+          "correct": false
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Over",
+          "total": 8.6,
+          "confidence": 0.6871474009634899,
+          "correct": false
+        }
+      },
+      "weatherData": {
+        "temp_f": 86.8,
+        "wind_mph": 9.5,
+        "wind_dir": "SW",
+        "humidity": 68,
+        "condition": "few clouds"
+      }
+    },
+    {
+      "gameId": "2025-05-18_ColoradoRockies@ArizonaDiamondbacks",
+      "gameDate": "2025-05-18",
+      "predictedTotal": 8.8,
+      "actualTotal": 26,
+      "prediction": "Over",
+      "actualResult": "Over",
+      "correct": true,
+      "confidence": 0.7,
+      "edge": 17.2,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Over",
+          "total": 9.3,
+          "confidence": 0.8077853810914166,
+          "correct": true
+        },
+        "Model_B_Offense": {
+          "prediction": "Under",
+          "total": 8.2,
+          "confidence": 0.5551978890186838,
+          "correct": false
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Over",
+          "total": 9,
+          "confidence": 0.7328836867546424,
+          "correct": true
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Over",
+          "total": 8.7,
+          "confidence": 0.7050322296652882,
+          "correct": true
+        }
+      },
+      "weatherData": {
+        "temp_f": 89.1,
+        "wind_mph": 8.9,
+        "wind_dir": "N",
+        "humidity": 67,
+        "condition": "scattered clouds"
+      }
+    },
+    {
+      "gameId": "2025-05-18_SeattleMariners@SanDiegoPadres",
+      "gameDate": "2025-05-18",
+      "predictedTotal": 9,
+      "actualTotal": 5,
+      "prediction": "Over",
+      "actualResult": "Under",
+      "correct": false,
+      "confidence": 0.718,
+      "edge": 4,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Over",
+          "total": 9.2,
+          "confidence": 0.7084207982405522,
+          "correct": false
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 10,
+          "confidence": 0.6964551454578314,
+          "correct": false
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Under",
+          "total": 8.4,
+          "confidence": 0.8192154770331813,
+          "correct": true
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Under",
+          "total": 8.3,
+          "confidence": 0.6464280094279617,
+          "correct": true
+        }
+      },
+      "weatherData": {
+        "temp_f": 89.7,
+        "wind_mph": 9.7,
+        "wind_dir": "N",
+        "humidity": 56,
+        "condition": "clear sky"
+      }
+    },
+    {
+      "gameId": "2025-05-18_Athletics@SanFranciscoGiants",
+      "gameDate": "2025-05-18",
+      "predictedTotal": 8,
+      "actualTotal": 1,
+      "prediction": "Under",
+      "actualResult": "Under",
+      "correct": true,
+      "confidence": 0.718,
+      "edge": 7,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Under",
+          "total": 7.2,
+          "confidence": 0.7882511750699881,
+          "correct": true
+        },
+        "Model_B_Offense": {
+          "prediction": "Under",
+          "total": 7.8,
+          "confidence": 0.6125913814789758,
+          "correct": true
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Under",
+          "total": 8.4,
+          "confidence": 0.7471659978744041,
+          "correct": true
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Under",
+          "total": 8.5,
+          "confidence": 0.7223280876794332,
+          "correct": true
+        }
+      },
+      "weatherData": {
+        "temp_f": 73.8,
+        "wind_mph": 15.2,
+        "wind_dir": "S",
+        "humidity": 82,
+        "condition": "few clouds"
+      }
+    },
+    {
+      "gameId": "2025-05-18_LosAngelesAngels@LosAngelesDodgers",
+      "gameDate": "2025-05-18",
+      "predictedTotal": 8.9,
+      "actualTotal": 20,
+      "prediction": "Over",
+      "actualResult": "Over",
+      "correct": true,
+      "confidence": 0.714,
+      "edge": 11.1,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Under",
+          "total": 7.2,
+          "confidence": 0.6453550998240274,
+          "correct": false
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 10.4,
+          "confidence": 0.7371055652069469,
+          "correct": true
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Over",
+          "total": 9.4,
+          "confidence": 0.6805061402339161,
+          "correct": true
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Under",
+          "total": 8.5,
+          "confidence": 0.7947691612111927,
+          "correct": false
+        }
+      },
+      "weatherData": {
+        "temp_f": 89.8,
+        "wind_mph": 4.6,
+        "wind_dir": "SE",
+        "humidity": 48,
+        "condition": "few clouds"
+      }
+    },
+    {
+      "gameId": "2025-05-18_HoustonAstros@TexasRangers",
+      "gameDate": "2025-05-18",
+      "predictedTotal": 9.4,
+      "actualTotal": 7,
+      "prediction": "Over",
+      "actualResult": "Under",
+      "correct": false,
+      "confidence": 0.712,
+      "edge": 2.4000000000000004,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Over",
+          "total": 8.8,
+          "confidence": 0.6028532939867015,
+          "correct": false
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 10.9,
+          "confidence": 0.7862437143706928,
+          "correct": false
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Over",
+          "total": 9.4,
+          "confidence": 0.7879459514184816,
+          "correct": false
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Over",
+          "total": 8.6,
+          "confidence": 0.669862527349492,
+          "correct": false
+        }
+      },
+      "weatherData": {
+        "temp_f": 90.2,
+        "wind_mph": 7.5,
+        "wind_dir": "SW",
+        "humidity": 73,
+        "condition": "scattered clouds"
+      }
+    },
+    {
+      "gameId": "2025-05-18_WashingtonNationals@BaltimoreOrioles",
+      "gameDate": "2025-05-18",
+      "predictedTotal": 9.3,
+      "actualTotal": 14,
+      "prediction": "Over",
+      "actualResult": "Over",
+      "correct": true,
+      "confidence": 0.753,
+      "edge": 4.699999999999999,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Over",
+          "total": 8.9,
+          "confidence": 0.8346931731153703,
+          "correct": true
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 11.4,
+          "confidence": 0.7341756905736192,
+          "correct": true
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Under",
+          "total": 8.4,
+          "confidence": 0.7017293911809525,
+          "correct": false
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Over",
+          "total": 8.5,
+          "confidence": 0.7396875175905817,
+          "correct": true
+        }
+      },
+      "weatherData": {
+        "temp_f": 90.7,
+        "wind_mph": 14.7,
+        "wind_dir": "NE",
+        "humidity": 56,
+        "condition": "few clouds"
+      }
+    },
+    {
+      "gameId": "2025-05-18_PittsburghPirates@PhiladelphiaPhillies",
+      "gameDate": "2025-05-18",
+      "predictedTotal": 8.3,
+      "actualTotal": 1,
+      "prediction": "Under",
+      "actualResult": "Under",
+      "correct": true,
+      "confidence": 0.703,
+      "edge": 7.300000000000001,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Under",
+          "total": 7.2,
+          "confidence": 0.7311073213385908,
+          "correct": true
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 8.8,
+          "confidence": 0.7673028139294913,
+          "correct": false
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Over",
+          "total": 8.9,
+          "confidence": 0.6834171773666121,
+          "correct": false
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Under",
+          "total": 8.5,
+          "confidence": 0.6302746078802552,
+          "correct": true
+        }
+      },
+      "weatherData": {
+        "temp_f": 89.9,
+        "wind_mph": 6,
+        "wind_dir": "S",
+        "humidity": 66,
+        "condition": "scattered clouds"
+      }
+    },
+    {
+      "gameId": "2025-05-18_AtlantaBraves@BostonRedSox",
+      "gameDate": "2025-05-18",
+      "predictedTotal": 8.8,
+      "actualTotal": 14,
+      "prediction": "Over",
+      "actualResult": "Over",
+      "correct": true,
+      "confidence": 0.711,
+      "edge": 5.199999999999999,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Over",
+          "total": 8.6,
+          "confidence": 0.6344148303123862,
+          "correct": true
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 9,
+          "confidence": 0.5732256218393865,
+          "correct": true
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Over",
+          "total": 9.4,
+          "confidence": 0.8413876839929506,
+          "correct": true
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Under",
+          "total": 8.3,
+          "confidence": 0.7963823190960824,
+          "correct": false
+        }
+      },
+      "weatherData": {
+        "temp_f": 81.3,
+        "wind_mph": 8.8,
+        "wind_dir": "N",
+        "humidity": 76,
+        "condition": "clear sky"
+      }
+    },
+    {
+      "gameId": "2025-05-18_DetroitTigers@TorontoBlueJays",
+      "gameDate": "2025-05-18",
+      "predictedTotal": 9.3,
+      "actualTotal": 5,
+      "prediction": "Over",
+      "actualResult": "Under",
+      "correct": false,
+      "confidence": 0.702,
+      "edge": 4.300000000000001,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Over",
+          "total": 9.6,
+          "confidence": 0.6140681351589043,
+          "correct": false
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 10.3,
+          "confidence": 0.8164177074132065,
+          "correct": false
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Over",
+          "total": 8.9,
+          "confidence": 0.7077338035230953,
+          "correct": false
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Under",
+          "total": 8.3,
+          "confidence": 0.6688691457985272,
+          "correct": true
+        }
+      },
+      "weatherData": {
+        "temp_f": 88.8,
+        "wind_mph": 13.4,
+        "wind_dir": "NE",
+        "humidity": 72,
+        "condition": "few clouds"
+      }
+    },
+    {
+      "gameId": "2025-05-18_ClevelandGuardians@CincinnatiReds",
+      "gameDate": "2025-05-18",
+      "predictedTotal": 8.4,
+      "actualTotal": 4,
+      "prediction": "Under",
+      "actualResult": "Under",
+      "correct": true,
+      "confidence": 0.735,
+      "edge": 4.4,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Over",
+          "total": 8.8,
+          "confidence": 0.653886632287441,
+          "correct": false
+        },
+        "Model_B_Offense": {
+          "prediction": "Under",
+          "total": 8,
+          "confidence": 0.7717020177028011,
+          "correct": true
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Under",
+          "total": 8.2,
+          "confidence": 0.7078199617104577,
+          "correct": true
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Over",
+          "total": 8.7,
+          "confidence": 0.807881191871338,
+          "correct": false
+        }
+      },
+      "weatherData": {
+        "temp_f": 89.4,
+        "wind_mph": 10.9,
+        "wind_dir": "SW",
+        "humidity": 67,
+        "condition": "clear sky"
+      }
+    },
+    {
+      "gameId": "2025-05-18_TampaBayRays@MiamiMarlins",
+      "gameDate": "2025-05-18",
+      "predictedTotal": 8.9,
+      "actualTotal": 6,
+      "prediction": "Over",
+      "actualResult": "Under",
+      "correct": false,
+      "confidence": 0.672,
+      "edge": 2.9000000000000004,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Over",
+          "total": 8.8,
+          "confidence": 0.6506990988467298,
+          "correct": false
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 8.9,
+          "confidence": 0.6900162990214967,
+          "correct": false
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Over",
+          "total": 9.3,
+          "confidence": 0.6800666261760653,
+          "correct": false
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Over",
+          "total": 8.7,
+          "confidence": 0.6684767841129267,
+          "correct": false
+        }
+      },
+      "weatherData": {
+        "temp_f": 87.2,
+        "wind_mph": 14.2,
+        "wind_dir": "N",
+        "humidity": 74,
+        "condition": "clear sky"
+      }
+    },
+    {
+      "gameId": "2025-05-18_St.LouisCardinals@KansasCityRoyals",
+      "gameDate": "2025-05-18",
+      "predictedTotal": 8.9,
+      "actualTotal": 3,
+      "prediction": "Over",
+      "actualResult": "Under",
+      "correct": false,
+      "confidence": 0.663,
+      "edge": 5.9,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Under",
+          "total": 8.1,
+          "confidence": 0.7684333093344,
+          "correct": true
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 9.8,
+          "confidence": 0.5510256784071306,
+          "correct": false
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Over",
+          "total": 9,
+          "confidence": 0.6712168629091589,
+          "correct": false
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Over",
+          "total": 8.7,
+          "confidence": 0.6630903443522744,
+          "correct": false
+        }
+      },
+      "weatherData": {
+        "temp_f": 86.4,
+        "wind_mph": 9.6,
+        "wind_dir": "E",
+        "humidity": 57,
+        "condition": "clear sky"
+      }
+    },
+    {
+      "gameId": "2025-05-18_MinnesotaTwins@MilwaukeeBrewers",
+      "gameDate": "2025-05-18",
+      "predictedTotal": 9.1,
+      "actualTotal": 7,
+      "prediction": "Over",
+      "actualResult": "Under",
+      "correct": false,
+      "confidence": 0.684,
+      "edge": 2.0999999999999996,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Over",
+          "total": 9,
+          "confidence": 0.7624712266638987,
+          "correct": false
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 10.3,
+          "confidence": 0.6486874845753247,
+          "correct": false
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Under",
+          "total": 8.4,
+          "confidence": 0.6511382696530631,
+          "correct": true
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Over",
+          "total": 8.7,
+          "confidence": 0.671755338032376,
+          "correct": false
+        }
+      },
+      "weatherData": {
+        "temp_f": 90.5,
+        "wind_mph": 9.8,
+        "wind_dir": "E",
+        "humidity": 74,
+        "condition": "few clouds"
+      }
+    },
+    {
+      "gameId": "2025-05-18_ChicagoWhiteSox@ChicagoCubs",
+      "gameDate": "2025-05-18",
+      "predictedTotal": 9.4,
+      "actualTotal": 8,
+      "prediction": "Over",
+      "actualResult": "Under",
+      "correct": false,
+      "confidence": 0.702,
+      "edge": 1.4000000000000004,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Over",
+          "total": 9.2,
+          "confidence": 0.7430573955781714,
+          "correct": false
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 10.4,
+          "confidence": 0.619711982629503,
+          "correct": false
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Over",
+          "total": 9.4,
+          "confidence": 0.6688683476691573,
+          "correct": false
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Over",
+          "total": 8.7,
+          "confidence": 0.7746753855131939,
+          "correct": false
+        }
+      },
+      "weatherData": {
+        "temp_f": 89,
+        "wind_mph": 13.3,
+        "wind_dir": "N",
+        "humidity": 73,
+        "condition": "few clouds"
+      }
+    },
+    {
+      "gameId": "2025-05-18_Athletics@SanFranciscoGiants",
+      "gameDate": "2025-05-18",
+      "predictedTotal": 8.1,
+      "actualTotal": 5,
+      "prediction": "Under",
+      "actualResult": "Under",
+      "correct": true,
+      "confidence": 0.719,
+      "edge": 3.0999999999999996,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Under",
+          "total": 8.2,
+          "confidence": 0.726762555502249,
+          "correct": true
+        },
+        "Model_B_Offense": {
+          "prediction": "Under",
+          "total": 7.7,
+          "confidence": 0.7234398285807224,
+          "correct": true
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Under",
+          "total": 8.1,
+          "confidence": 0.6779633659321493,
+          "correct": true
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Over",
+          "total": 8.5,
+          "confidence": 0.7477733616800386,
+          "correct": false
+        }
+      },
+      "weatherData": {
+        "temp_f": 71.6,
+        "wind_mph": 11.7,
+        "wind_dir": "S",
+        "humidity": 84,
+        "condition": "clear sky"
+      }
+    },
+    {
+      "gameId": "2025-05-18_ColoradoRockies@ArizonaDiamondbacks",
+      "gameDate": "2025-05-18",
+      "predictedTotal": 8.5,
+      "actualTotal": 1,
+      "prediction": "Under",
+      "actualResult": "Under",
+      "correct": true,
+      "confidence": 0.754,
+      "edge": 7.5,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Over",
+          "total": 8.6,
+          "confidence": 0.7744394188875561,
+          "correct": false
+        },
+        "Model_B_Offense": {
+          "prediction": "Under",
+          "total": 7.8,
+          "confidence": 0.7131030266332479,
+          "correct": true
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Over",
+          "total": 9.1,
+          "confidence": 0.8263316554862139,
+          "correct": false
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Under",
+          "total": 8.4,
+          "confidence": 0.7021248852805082,
+          "correct": true
+        }
+      },
+      "weatherData": {
+        "temp_f": 86.1,
+        "wind_mph": 14.1,
+        "wind_dir": "SE",
+        "humidity": 66,
+        "condition": "scattered clouds"
+      }
+    },
+    {
+      "gameId": "2025-05-18_LosAngelesAngels@LosAngelesDodgers",
+      "gameDate": "2025-05-18",
+      "predictedTotal": 9.3,
+      "actualTotal": 10,
+      "prediction": "Over",
+      "actualResult": "Over",
+      "correct": true,
+      "confidence": 0.722,
+      "edge": 0.6999999999999993,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Under",
+          "total": 8.4,
+          "confidence": 0.698834456185859,
+          "correct": false
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 11.2,
+          "confidence": 0.67761227753766,
+          "correct": true
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Over",
+          "total": 8.9,
+          "confidence": 0.6987419318939476,
+          "correct": true
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Under",
+          "total": 8.5,
+          "confidence": 0.8112521679526574,
+          "correct": false
+        }
+      },
+      "weatherData": {
+        "temp_f": 80.7,
+        "wind_mph": 6.6,
+        "wind_dir": "N",
+        "humidity": 35,
+        "condition": "clear sky"
+      }
+    },
+    {
+      "gameId": "2025-05-18_SeattleMariners@SanDiegoPadres",
+      "gameDate": "2025-05-18",
+      "predictedTotal": 8.7,
+      "actualTotal": 7,
+      "prediction": "Over",
+      "actualResult": "Under",
+      "correct": false,
+      "confidence": 0.714,
+      "edge": 1.6999999999999993,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Under",
+          "total": 7.8,
+          "confidence": 0.6575620468471841,
+          "correct": true
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 10.2,
+          "confidence": 0.7683028233544836,
+          "correct": false
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Under",
+          "total": 8.4,
+          "confidence": 0.7529061327340039,
+          "correct": true
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Under",
+          "total": 8.3,
+          "confidence": 0.67844420612342,
+          "correct": true
+        }
+      },
+      "weatherData": {
+        "temp_f": 87.8,
+        "wind_mph": 9.5,
+        "wind_dir": "N",
+        "humidity": 74,
+        "condition": "few clouds"
+      }
+    },
+    {
+      "gameId": "2025-05-18_NewYorkMets@NewYorkYankees",
+      "gameDate": "2025-05-18",
+      "predictedTotal": 9.1,
+      "actualTotal": 10,
+      "prediction": "Over",
+      "actualResult": "Over",
+      "correct": true,
+      "confidence": 0.718,
+      "edge": 0.9000000000000004,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Over",
+          "total": 8.5,
+          "confidence": 0.7119137165574041,
+          "correct": true
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 9.9,
+          "confidence": 0.6200825257939607,
+          "correct": true
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Over",
+          "total": 9.8,
+          "confidence": 0.7650769253251415,
+          "correct": true
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Under",
+          "total": 8.3,
+          "confidence": 0.7750174769560046,
+          "correct": false
+        }
+      },
+      "weatherData": {
+        "temp_f": 95.1,
+        "wind_mph": 5.7,
+        "wind_dir": "NE",
+        "humidity": 66,
+        "condition": "few clouds"
+      }
+    },
+    {
+      "gameId": "2025-05-19_CincinnatiReds@PittsburghPirates",
+      "gameDate": "2025-05-19",
+      "predictedTotal": 9,
+      "actualTotal": 8,
+      "prediction": "Over",
+      "actualResult": "Under",
+      "correct": false,
+      "confidence": 0.699,
+      "edge": 1,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Over",
+          "total": 9.1,
+          "confidence": 0.7688583057785081,
+          "correct": false
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 9.4,
+          "confidence": 0.5934459915212911,
+          "correct": false
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Over",
+          "total": 8.9,
+          "confidence": 0.7404869979740418,
+          "correct": false
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Over",
+          "total": 8.6,
+          "confidence": 0.6936220471625714,
+          "correct": false
+        }
+      },
+      "weatherData": {
+        "temp_f": 93.8,
+        "wind_mph": 10.6,
+        "wind_dir": "E",
+        "humidity": 67,
+        "condition": "clear sky"
+      }
+    },
+    {
+      "gameId": "2025-05-19_ChicagoCubs@MiamiMarlins",
+      "gameDate": "2025-05-19",
+      "predictedTotal": 9,
+      "actualTotal": 15,
+      "prediction": "Over",
+      "actualResult": "Over",
+      "correct": true,
+      "confidence": 0.742,
+      "edge": 6,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Over",
+          "total": 9.1,
+          "confidence": 0.6907881028738448,
+          "correct": true
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 9,
+          "confidence": 0.8044418351927805,
+          "correct": true
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Over",
+          "total": 9.3,
+          "confidence": 0.7174066182310623,
+          "correct": true
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Over",
+          "total": 8.6,
+          "confidence": 0.7544927478260981,
+          "correct": true
+        }
+      },
+      "weatherData": {
+        "temp_f": 85.4,
+        "wind_mph": 9.9,
+        "wind_dir": "W",
+        "humidity": 56,
+        "condition": "scattered clouds"
+      }
+    },
+    {
+      "gameId": "2025-05-19_NewYorkMets@BostonRedSox",
+      "gameDate": "2025-05-19",
+      "predictedTotal": 8.9,
+      "actualTotal": 4,
+      "prediction": "Over",
+      "actualResult": "Under",
+      "correct": false,
+      "confidence": 0.74,
+      "edge": 4.9,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Under",
+          "total": 8.2,
+          "confidence": 0.7229155374958822,
+          "correct": true
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 9.2,
+          "confidence": 0.7665499548146424,
+          "correct": false
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Over",
+          "total": 9.6,
+          "confidence": 0.7225643906623427,
+          "correct": false
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Over",
+          "total": 8.7,
+          "confidence": 0.7470874893676316,
+          "correct": false
+        }
+      },
+      "weatherData": {
+        "temp_f": 90.3,
+        "wind_mph": 8,
+        "wind_dir": "NE",
+        "humidity": 66,
+        "condition": "clear sky"
+      }
+    },
+    {
+      "gameId": "2025-05-19_HoustonAstros@TampaBayRays",
+      "gameDate": "2025-05-19",
+      "predictedTotal": 9.3,
+      "actualTotal": 7,
+      "prediction": "Over",
+      "actualResult": "Under",
+      "correct": false,
+      "confidence": 0.726,
+      "edge": 2.3000000000000007,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Over",
+          "total": 8.9,
+          "confidence": 0.7805022166916441,
+          "correct": false
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 10.8,
+          "confidence": 0.7332959261952908,
+          "correct": false
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Over",
+          "total": 9,
+          "confidence": 0.750577205229973,
+          "correct": false
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Over",
+          "total": 8.6,
+          "confidence": 0.6387595421712837,
+          "correct": false
+        }
+      },
+      "weatherData": {
+        "temp_f": 91.7,
+        "wind_mph": 13.4,
+        "wind_dir": "NE",
+        "humidity": 61,
+        "condition": "scattered clouds"
+      }
+    },
+    {
+      "gameId": "2025-05-19_ClevelandGuardians@MinnesotaTwins",
+      "gameDate": "2025-05-19",
+      "predictedTotal": 8.4,
+      "actualTotal": 11,
+      "prediction": "Under",
+      "actualResult": "Over",
+      "correct": false,
+      "confidence": 0.714,
+      "edge": 2.5999999999999996,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Over",
+          "total": 8.6,
+          "confidence": 0.7078496825994058,
+          "correct": true
+        },
+        "Model_B_Offense": {
+          "prediction": "Under",
+          "total": 7.9,
+          "confidence": 0.5669002870210778,
+          "correct": false
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Over",
+          "total": 8.7,
+          "confidence": 0.8194271730388466,
+          "correct": true
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Under",
+          "total": 8.4,
+          "confidence": 0.7615797365950017,
+          "correct": false
+        }
+      },
+      "weatherData": {
+        "temp_f": 87.3,
+        "wind_mph": 9.5,
+        "wind_dir": "E",
+        "humidity": 63,
+        "condition": "scattered clouds"
+      }
+    },
+    {
+      "gameId": "2025-05-19_SeattleMariners@ChicagoWhiteSox",
+      "gameDate": "2025-05-19",
+      "predictedTotal": 8.7,
+      "actualTotal": 6,
+      "prediction": "Over",
+      "actualResult": "Under",
+      "correct": false,
+      "confidence": 0.709,
+      "edge": 2.6999999999999993,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Over",
+          "total": 8.6,
+          "confidence": 0.62817656801606,
+          "correct": false
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 8.9,
+          "confidence": 0.8362162271045193,
+          "correct": false
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Over",
+          "total": 8.9,
+          "confidence": 0.6761555994829854,
+          "correct": false
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Under",
+          "total": 8.4,
+          "confidence": 0.6943693226861475,
+          "correct": true
+        }
+      },
+      "weatherData": {
+        "temp_f": 92.9,
+        "wind_mph": 13.7,
+        "wind_dir": "N",
+        "humidity": 68,
+        "condition": "scattered clouds"
+      }
+    },
+    {
+      "gameId": "2025-05-19_BaltimoreOrioles@MilwaukeeBrewers",
+      "gameDate": "2025-05-19",
+      "predictedTotal": 9,
+      "actualTotal": 9,
+      "prediction": "Over",
+      "actualResult": "Over",
+      "correct": true,
+      "confidence": 0.708,
+      "edge": 0,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Over",
+          "total": 9.8,
+          "confidence": 0.7221729064164476,
+          "correct": true
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 9.5,
+          "confidence": 0.7265288865583889,
+          "correct": true
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Under",
+          "total": 8.2,
+          "confidence": 0.7095188814228278,
+          "correct": false
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Under",
+          "total": 8.5,
+          "confidence": 0.6753910682920758,
+          "correct": false
+        }
+      },
+      "weatherData": {
+        "temp_f": 88.3,
+        "wind_mph": 12.6,
+        "wind_dir": "E",
+        "humidity": 70,
+        "condition": "few clouds"
+      }
+    },
+    {
+      "gameId": "2025-05-19_DetroitTigers@St.LouisCardinals",
+      "gameDate": "2025-05-19",
+      "predictedTotal": 9,
+      "actualTotal": 15,
+      "prediction": "Over",
+      "actualResult": "Over",
+      "correct": true,
+      "confidence": 0.74,
+      "edge": 6,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Over",
+          "total": 8.9,
+          "confidence": 0.7690499140400853,
+          "correct": true
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 9.1,
+          "confidence": 0.6134006562641187,
+          "correct": true
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Over",
+          "total": 9.3,
+          "confidence": 0.7922332625390434,
+          "correct": true
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Over",
+          "total": 8.7,
+          "confidence": 0.7869122639627588,
+          "correct": true
+        }
+      },
+      "weatherData": {
+        "temp_f": 92.6,
+        "wind_mph": 7.4,
+        "wind_dir": "S",
+        "humidity": 70,
+        "condition": "scattered clouds"
+      }
+    },
+    {
+      "gameId": "2025-05-20_PhiladelphiaPhillies@ColoradoRockies",
+      "gameDate": "2025-05-20",
+      "predictedTotal": 9.1,
+      "actualTotal": 12,
+      "prediction": "Over",
+      "actualResult": "Over",
+      "correct": true,
+      "confidence": 0.656,
+      "edge": 2.9000000000000004,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Over",
+          "total": 8.8,
+          "confidence": 0.6308594793632968,
+          "correct": true
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 9.2,
+          "confidence": 0.6799357232339569,
+          "correct": true
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Over",
+          "total": 9.7,
+          "confidence": 0.7112745304072113,
+          "correct": true
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Over",
+          "total": 8.7,
+          "confidence": 0.6033459266430432,
+          "correct": true
+        }
+      },
+      "weatherData": {
+        "temp_f": 92.7,
+        "wind_mph": 12.1,
+        "wind_dir": "SW",
+        "humidity": 61,
+        "condition": "clear sky"
+      }
+    },
+    {
+      "gameId": "2025-05-20_KansasCityRoyals@SanFranciscoGiants",
+      "gameDate": "2025-05-20",
+      "predictedTotal": 8.6,
+      "actualTotal": 4,
+      "prediction": "Over",
+      "actualResult": "Under",
+      "correct": false,
+      "confidence": 0.691,
+      "edge": 4.6,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Under",
+          "total": 8.1,
+          "confidence": 0.7273214917625338,
+          "correct": true
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 8.9,
+          "confidence": 0.683817045026902,
+          "correct": false
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Over",
+          "total": 9,
+          "confidence": 0.7004721369608079,
+          "correct": false
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Under",
+          "total": 8.4,
+          "confidence": 0.6541632793011689,
+          "correct": true
+        }
+      },
+      "weatherData": {
+        "temp_f": 71.7,
+        "wind_mph": 13.8,
+        "wind_dir": "E",
+        "humidity": 81,
+        "condition": "scattered clouds"
+      }
+    },
+    {
+      "gameId": "2025-05-20_LosAngelesAngels@Athletics",
+      "gameDate": "2025-05-20",
+      "predictedTotal": 8.8,
+      "actualTotal": 7,
+      "prediction": "Over",
+      "actualResult": "Under",
+      "correct": false,
+      "confidence": 0.729,
+      "edge": 1.8000000000000007,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Under",
+          "total": 8.5,
+          "confidence": 0.7933944408711997,
+          "correct": true
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 9.1,
+          "confidence": 0.5767303967096371,
+          "correct": false
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Over",
+          "total": 9,
+          "confidence": 0.7421044066259672,
+          "correct": false
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Over",
+          "total": 8.7,
+          "confidence": 0.8045420318525878,
+          "correct": false
+        }
+      },
+      "weatherData": {
+        "temp_f": 92.3,
+        "wind_mph": 9.8,
+        "wind_dir": "NW",
+        "humidity": 61,
+        "condition": "scattered clouds"
+      }
+    },
+    {
+      "gameId": "2025-05-20_ArizonaDiamondbacks@LosAngelesDodgers",
+      "gameDate": "2025-05-20",
+      "predictedTotal": 8.6,
+      "actualTotal": 14,
+      "prediction": "Over",
+      "actualResult": "Over",
+      "correct": true,
+      "confidence": 0.717,
+      "edge": 5.4,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Under",
+          "total": 8,
+          "confidence": 0.694007552523388,
+          "correct": false
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 9,
+          "confidence": 0.6972021117515741,
+          "correct": true
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Over",
+          "total": 8.9,
+          "confidence": 0.7993475282981305,
+          "correct": true
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Under",
+          "total": 8.3,
+          "confidence": 0.678424601574074,
+          "correct": false
+        }
+      },
+      "weatherData": {
+        "temp_f": 85.5,
+        "wind_mph": 3.2,
+        "wind_dir": "NE",
+        "humidity": 49,
+        "condition": "clear sky"
+      }
+    },
+    {
+      "gameId": "2025-05-20_CincinnatiReds@PittsburghPirates",
+      "gameDate": "2025-05-20",
+      "predictedTotal": 8.5,
+      "actualTotal": 1,
+      "prediction": "Over",
+      "actualResult": "Under",
+      "correct": false,
+      "confidence": 0.73,
+      "edge": 7.5,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Under",
+          "total": 8.3,
+          "confidence": 0.6179324592568021,
+          "correct": true
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 9.2,
+          "confidence": 0.8043553335085751,
+          "correct": false
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Under",
+          "total": 8.2,
+          "confidence": 0.7317860058346277,
+          "correct": true
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Under",
+          "total": 8.4,
+          "confidence": 0.7667932752206607,
+          "correct": true
+        }
+      },
+      "weatherData": {
+        "temp_f": 92.8,
+        "wind_mph": 7.7,
+        "wind_dir": "W",
+        "humidity": 68,
+        "condition": "scattered clouds"
+      }
+    },
+    {
+      "gameId": "2025-05-20_ChicagoCubs@MiamiMarlins",
+      "gameDate": "2025-05-20",
+      "predictedTotal": 9.1,
+      "actualTotal": 15,
+      "prediction": "Over",
+      "actualResult": "Over",
+      "correct": true,
+      "confidence": 0.721,
+      "edge": 5.9,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Over",
+          "total": 9.1,
+          "confidence": 0.7785818954024821,
+          "correct": true
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 9.9,
+          "confidence": 0.6563941965193605,
+          "correct": true
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Over",
+          "total": 8.6,
+          "confidence": 0.7436073875717619,
+          "correct": true
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Over",
+          "total": 8.7,
+          "confidence": 0.704835026434758,
+          "correct": true
+        }
+      },
+      "weatherData": {
+        "temp_f": 87.8,
+        "wind_mph": 11,
+        "wind_dir": "N",
+        "humidity": 67,
+        "condition": "few clouds"
+      }
+    },
+    {
+      "gameId": "2025-05-20_NewYorkMets@BostonRedSox",
+      "gameDate": "2025-05-20",
+      "predictedTotal": 9,
+      "actualTotal": 2,
+      "prediction": "Over",
+      "actualResult": "Under",
+      "correct": false,
+      "confidence": 0.759,
+      "edge": 7,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Under",
+          "total": 7.9,
+          "confidence": 0.6484214118748781,
+          "correct": true
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 9.9,
+          "confidence": 0.72309861565815,
+          "correct": false
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Over",
+          "total": 9.4,
+          "confidence": 0.8400988295531715,
+          "correct": false
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Over",
+          "total": 8.7,
+          "confidence": 0.8229181464292322,
+          "correct": false
+        }
+      },
+      "weatherData": {
+        "temp_f": 83.7,
+        "wind_mph": 11.9,
+        "wind_dir": "W",
+        "humidity": 67,
+        "condition": "scattered clouds"
+      }
+    },
+    {
+      "gameId": "2025-05-20_AtlantaBraves@WashingtonNationals",
+      "gameDate": "2025-05-20",
+      "predictedTotal": 9.3,
+      "actualTotal": 8,
+      "prediction": "Over",
+      "actualResult": "Under",
+      "correct": false,
+      "confidence": 0.726,
+      "edge": 1.3000000000000007,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Under",
+          "total": 7.8,
+          "confidence": 0.8076854839413863,
+          "correct": true
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 11.4,
+          "confidence": 0.6739845424126849,
+          "correct": false
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Over",
+          "total": 9.2,
+          "confidence": 0.7193289971077974,
+          "correct": false
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Over",
+          "total": 8.6,
+          "confidence": 0.7028781109015674,
+          "correct": false
+        }
+      },
+      "weatherData": {
+        "temp_f": 89.3,
+        "wind_mph": 7.6,
+        "wind_dir": "N",
+        "humidity": 73,
+        "condition": "few clouds"
+      }
+    },
+    {
+      "gameId": "2025-05-20_HoustonAstros@TampaBayRays",
+      "gameDate": "2025-05-20",
+      "predictedTotal": 9.2,
+      "actualTotal": 5,
+      "prediction": "Over",
+      "actualResult": "Under",
+      "correct": false,
+      "confidence": 0.679,
+      "edge": 4.199999999999999,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Under",
+          "total": 8.4,
+          "confidence": 0.6734225467148354,
+          "correct": true
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 11.3,
+          "confidence": 0.6487534253490862,
+          "correct": false
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Under",
+          "total": 8.5,
+          "confidence": 0.7009855072938704,
+          "correct": true
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Under",
+          "total": 8.5,
+          "confidence": 0.6912876552373659,
+          "correct": true
+        }
+      },
+      "weatherData": {
+        "temp_f": 88.5,
+        "wind_mph": 9.4,
+        "wind_dir": "E",
+        "humidity": 65,
+        "condition": "clear sky"
+      }
+    },
+    {
+      "gameId": "2025-05-20_TexasRangers@NewYorkYankees",
+      "gameDate": "2025-05-20",
+      "predictedTotal": 9.3,
+      "actualTotal": 7,
+      "prediction": "Over",
+      "actualResult": "Under",
+      "correct": false,
+      "confidence": 0.65,
+      "edge": 2.3000000000000007,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Under",
+          "total": 8.4,
+          "confidence": 0.6062119875785462,
+          "correct": true
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 10.3,
+          "confidence": 0.586550405365916,
+          "correct": false
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Over",
+          "total": 10,
+          "confidence": 0.7511534319187544,
+          "correct": false
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Under",
+          "total": 8.5,
+          "confidence": 0.654091687796502,
+          "correct": true
+        }
+      },
+      "weatherData": {
+        "temp_f": 94.8,
+        "wind_mph": 9.7,
+        "wind_dir": "W",
+        "humidity": 75,
+        "condition": "few clouds"
+      }
+    },
+    {
+      "gameId": "2025-05-20_SanDiegoPadres@TorontoBlueJays",
+      "gameDate": "2025-05-20",
+      "predictedTotal": 9.1,
+      "actualTotal": 3,
+      "prediction": "Over",
+      "actualResult": "Under",
+      "correct": false,
+      "confidence": 0.713,
+      "edge": 6.1,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Over",
+          "total": 8.7,
+          "confidence": 0.6523174724915588,
+          "correct": false
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 9.8,
+          "confidence": 0.7860739235552295,
+          "correct": false
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Over",
+          "total": 9.4,
+          "confidence": 0.7864351178121588,
+          "correct": false
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Under",
+          "total": 8.4,
+          "confidence": 0.628358577121056,
+          "correct": true
+        }
+      },
+      "weatherData": {
+        "temp_f": 88.6,
+        "wind_mph": 9.9,
+        "wind_dir": "SW",
+        "humidity": 71,
+        "condition": "clear sky"
+      }
+    },
+    {
+      "gameId": "2025-05-20_SeattleMariners@ChicagoWhiteSox",
+      "gameDate": "2025-05-20",
+      "predictedTotal": 8.7,
+      "actualTotal": 1,
+      "prediction": "Over",
+      "actualResult": "Under",
+      "correct": false,
+      "confidence": 0.783,
+      "edge": 7.699999999999999,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Over",
+          "total": 8.5,
+          "confidence": 0.8496685135004303,
+          "correct": false
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 8.8,
+          "confidence": 0.6950298185293585,
+          "correct": false
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Over",
+          "total": 8.8,
+          "confidence": 0.8477330440320525,
+          "correct": false
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Over",
+          "total": 8.5,
+          "confidence": 0.7397780165051013,
+          "correct": false
+        }
+      },
+      "weatherData": {
+        "temp_f": 86.5,
+        "wind_mph": 9.6,
+        "wind_dir": "W",
+        "humidity": 70,
+        "condition": "scattered clouds"
+      }
+    },
+    {
+      "gameId": "2025-05-20_BaltimoreOrioles@MilwaukeeBrewers",
+      "gameDate": "2025-05-20",
+      "predictedTotal": 8.8,
+      "actualTotal": 7,
+      "prediction": "Over",
+      "actualResult": "Under",
+      "correct": false,
+      "confidence": 0.667,
+      "edge": 1.8000000000000007,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Over",
+          "total": 9.1,
+          "confidence": 0.6629057944560519,
+          "correct": false
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 8.9,
+          "confidence": 0.5575307281538379,
+          "correct": false
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Under",
+          "total": 8.5,
+          "confidence": 0.679133989527553,
+          "correct": true
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Over",
+          "total": 8.7,
+          "confidence": 0.7681223356581119,
+          "correct": false
+        }
+      },
+      "weatherData": {
+        "temp_f": 90.2,
+        "wind_mph": 8.5,
+        "wind_dir": "NE",
+        "humidity": 61,
+        "condition": "few clouds"
+      }
+    },
+    {
+      "gameId": "2025-05-20_DetroitTigers@St.LouisCardinals",
+      "gameDate": "2025-05-20",
+      "predictedTotal": 9,
+      "actualTotal": 9,
+      "prediction": "Over",
+      "actualResult": "Over",
+      "correct": true,
+      "confidence": 0.729,
+      "edge": 0,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Over",
+          "total": 8.6,
+          "confidence": 0.6149528927065804,
+          "correct": true
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 10,
+          "confidence": 0.6458845234765261,
+          "correct": true
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Over",
+          "total": 9.2,
+          "confidence": 0.8215888337228372,
+          "correct": true
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Under",
+          "total": 8.3,
+          "confidence": 0.8326237902805103,
+          "correct": false
+        }
+      },
+      "weatherData": {
+        "temp_f": 88.8,
+        "wind_mph": 11.3,
+        "wind_dir": "N",
+        "humidity": 75,
+        "condition": "clear sky"
+      }
+    },
+    {
+      "gameId": "2025-05-21_PhiladelphiaPhillies@ColoradoRockies",
+      "gameDate": "2025-05-21",
+      "predictedTotal": 9.3,
+      "actualTotal": 11,
+      "prediction": "Over",
+      "actualResult": "Over",
+      "correct": true,
+      "confidence": 0.724,
+      "edge": 1.6999999999999993,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Over",
+          "total": 8.6,
+          "confidence": 0.6766369754682198,
+          "correct": true
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 10.3,
+          "confidence": 0.6332703914719582,
+          "correct": true
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Over",
+          "total": 10.1,
+          "confidence": 0.7964728937694878,
+          "correct": true
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Under",
+          "total": 8.4,
+          "confidence": 0.7910060401832579,
+          "correct": false
+        }
+      },
+      "weatherData": {
+        "temp_f": 93.4,
+        "wind_mph": 14.9,
+        "wind_dir": "W",
+        "humidity": 70,
+        "condition": "few clouds"
+      }
+    },
+    {
+      "gameId": "2025-05-21_KansasCityRoyals@SanFranciscoGiants",
+      "gameDate": "2025-05-21",
+      "predictedTotal": 8.7,
+      "actualTotal": 5,
+      "prediction": "Over",
+      "actualResult": "Under",
+      "correct": false,
+      "confidence": 0.739,
+      "edge": 3.6999999999999993,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Over",
+          "total": 8.5,
+          "confidence": 0.7081767360130291,
+          "correct": false
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 10,
+          "confidence": 0.6398682673796655,
+          "correct": false
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Under",
+          "total": 8,
+          "confidence": 0.8467450053418221,
+          "correct": true
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Under",
+          "total": 8.4,
+          "confidence": 0.7620019700234036,
+          "correct": true
+        }
+      },
+      "weatherData": {
+        "temp_f": 77.2,
+        "wind_mph": 16.5,
+        "wind_dir": "W",
+        "humidity": 69,
+        "condition": "scattered clouds"
+      }
+    },
+    {
+      "gameId": "2025-05-21_LosAngelesAngels@Athletics",
+      "gameDate": "2025-05-21",
+      "predictedTotal": 8.7,
+      "actualTotal": 12,
+      "prediction": "Over",
+      "actualResult": "Over",
+      "correct": true,
+      "confidence": 0.7,
+      "edge": 3.3000000000000007,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Over",
+          "total": 9,
+          "confidence": 0.7851620387174408,
+          "correct": true
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 8.7,
+          "confidence": 0.6274023099632368,
+          "correct": true
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Over",
+          "total": 8.7,
+          "confidence": 0.6845672136344557,
+          "correct": true
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Over",
+          "total": 8.5,
+          "confidence": 0.7034065806955231,
+          "correct": true
+        }
+      },
+      "weatherData": {
+        "temp_f": 88.4,
+        "wind_mph": 8.8,
+        "wind_dir": "NW",
+        "humidity": 67,
+        "condition": "scattered clouds"
+      }
+    },
+    {
+      "gameId": "2025-05-21_ArizonaDiamondbacks@LosAngelesDodgers",
+      "gameDate": "2025-05-21",
+      "predictedTotal": 8.8,
+      "actualTotal": 7,
+      "prediction": "Over",
+      "actualResult": "Under",
+      "correct": false,
+      "confidence": 0.69,
+      "edge": 1.8000000000000007,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Under",
+          "total": 8.4,
+          "confidence": 0.6119127045537349,
+          "correct": true
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 9.7,
+          "confidence": 0.5673276282503759,
+          "correct": false
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Over",
+          "total": 8.6,
+          "confidence": 0.7480442558921974,
+          "correct": false
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Under",
+          "total": 8.3,
+          "confidence": 0.8320763388911336,
+          "correct": true
+        }
+      },
+      "weatherData": {
+        "temp_f": 80.9,
+        "wind_mph": 3.3,
+        "wind_dir": "S",
+        "humidity": 46,
+        "condition": "few clouds"
+      }
+    },
+    {
+      "gameId": "2025-05-21_CincinnatiReds@PittsburghPirates",
+      "gameDate": "2025-05-21",
+      "predictedTotal": 9.2,
+      "actualTotal": 4,
+      "prediction": "Over",
+      "actualResult": "Under",
+      "correct": false,
+      "confidence": 0.676,
+      "edge": 5.199999999999999,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Over",
+          "total": 9.2,
+          "confidence": 0.7523747288319811,
+          "correct": false
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 9.9,
+          "confidence": 0.6100489778001844,
+          "correct": false
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Over",
+          "total": 9.2,
+          "confidence": 0.6867193404053652,
+          "correct": false
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Under",
+          "total": 8.3,
+          "confidence": 0.6549803104452577,
+          "correct": true
+        }
+      },
+      "weatherData": {
+        "temp_f": 95.3,
+        "wind_mph": 11.5,
+        "wind_dir": "S",
+        "humidity": 65,
+        "condition": "scattered clouds"
+      }
+    },
+    {
+      "gameId": "2025-05-21_HoustonAstros@TampaBayRays",
+      "gameDate": "2025-05-21",
+      "predictedTotal": 9.4,
+      "actualTotal": 12,
+      "prediction": "Over",
+      "actualResult": "Over",
+      "correct": true,
+      "confidence": 0.724,
+      "edge": 2.5999999999999996,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Over",
+          "total": 9.1,
+          "confidence": 0.7317636559082668,
+          "correct": true
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 11.3,
+          "confidence": 0.765343971061158,
+          "correct": true
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Over",
+          "total": 8.6,
+          "confidence": 0.6918316802416625,
+          "correct": true
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Over",
+          "total": 8.7,
+          "confidence": 0.7087944697481969,
+          "correct": true
+        }
+      },
+      "weatherData": {
+        "temp_f": 89.4,
+        "wind_mph": 11,
+        "wind_dir": "W",
+        "humidity": 67,
+        "condition": "clear sky"
+      }
+    },
+    {
+      "gameId": "2025-05-21_ClevelandGuardians@MinnesotaTwins",
+      "gameDate": "2025-05-21",
+      "predictedTotal": 8.5,
+      "actualTotal": 11,
+      "prediction": "Under",
+      "actualResult": "Over",
+      "correct": false,
+      "confidence": 0.746,
+      "edge": 2.5,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Under",
+          "total": 8.3,
+          "confidence": 0.821504407164974,
+          "correct": false
+        },
+        "Model_B_Offense": {
+          "prediction": "Under",
+          "total": 8.4,
+          "confidence": 0.6933934681802195,
+          "correct": false
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Over",
+          "total": 8.8,
+          "confidence": 0.7169946830599325,
+          "correct": true
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Under",
+          "total": 8.3,
+          "confidence": 0.7526051113498624,
+          "correct": false
+        }
+      },
+      "weatherData": {
+        "temp_f": 90.3,
+        "wind_mph": 12.8,
+        "wind_dir": "SE",
+        "humidity": 66,
+        "condition": "scattered clouds"
+      }
+    },
+    {
+      "gameId": "2025-05-21_ChicagoCubs@MiamiMarlins",
+      "gameDate": "2025-05-21",
+      "predictedTotal": 9.1,
+      "actualTotal": 3,
+      "prediction": "Over",
+      "actualResult": "Under",
+      "correct": false,
+      "confidence": 0.695,
+      "edge": 6.1,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Over",
+          "total": 8.6,
+          "confidence": 0.611220441900179,
+          "correct": false
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 10,
+          "confidence": 0.7172333385005522,
+          "correct": false
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Over",
+          "total": 9.3,
+          "confidence": 0.8158920447490836,
+          "correct": false
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Under",
+          "total": 8.4,
+          "confidence": 0.6373245356061001,
+          "correct": true
+        }
+      },
+      "weatherData": {
+        "temp_f": 90.7,
+        "wind_mph": 11.2,
+        "wind_dir": "W",
+        "humidity": 65,
+        "condition": "clear sky"
+      }
+    },
+    {
+      "gameId": "2025-05-21_BaltimoreOrioles@MilwaukeeBrewers",
+      "gameDate": "2025-05-21",
+      "predictedTotal": 8.7,
+      "actualTotal": 12,
+      "prediction": "Over",
+      "actualResult": "Over",
+      "correct": true,
+      "confidence": 0.748,
+      "edge": 3.3000000000000007,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Over",
+          "total": 8.5,
+          "confidence": 0.8495568286936463,
+          "correct": true
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 8.7,
+          "confidence": 0.695865520943059,
+          "correct": true
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Over",
+          "total": 8.8,
+          "confidence": 0.7427211890184133,
+          "correct": true
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Over",
+          "total": 8.7,
+          "confidence": 0.705460196152582,
+          "correct": true
+        }
+      },
+      "weatherData": {
+        "temp_f": 91.4,
+        "wind_mph": 14.1,
+        "wind_dir": "SW",
+        "humidity": 71,
+        "condition": "scattered clouds"
+      }
+    },
+    {
+      "gameId": "2025-05-21_DetroitTigers@St.LouisCardinals",
+      "gameDate": "2025-05-21",
+      "predictedTotal": 8.9,
+      "actualTotal": 6,
+      "prediction": "Over",
+      "actualResult": "Under",
+      "correct": false,
+      "confidence": 0.711,
+      "edge": 2.9000000000000004,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Over",
+          "total": 9.1,
+          "confidence": 0.6672055192976873,
+          "correct": false
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 9.2,
+          "confidence": 0.8097651756698114,
+          "correct": false
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Over",
+          "total": 9,
+          "confidence": 0.7017394588983142,
+          "correct": false
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Under",
+          "total": 8.3,
+          "confidence": 0.6671773879684486,
+          "correct": true
+        }
+      },
+      "weatherData": {
+        "temp_f": 95,
+        "wind_mph": 10.5,
+        "wind_dir": "W",
+        "humidity": 55,
+        "condition": "few clouds"
+      }
+    },
+    {
+      "gameId": "2025-05-21_SeattleMariners@ChicagoWhiteSox",
+      "gameDate": "2025-05-21",
+      "predictedTotal": 8.9,
+      "actualTotal": 11,
+      "prediction": "Over",
+      "actualResult": "Over",
+      "correct": true,
+      "confidence": 0.71,
+      "edge": 2.0999999999999996,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Over",
+          "total": 8.9,
+          "confidence": 0.6220801211106779,
+          "correct": true
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 9.1,
+          "confidence": 0.7721586066236624,
+          "correct": true
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Over",
+          "total": 9,
+          "confidence": 0.7198964898231099,
+          "correct": true
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Over",
+          "total": 8.5,
+          "confidence": 0.7271603810281586,
+          "correct": true
+        }
+      },
+      "weatherData": {
+        "temp_f": 85.9,
+        "wind_mph": 10.3,
+        "wind_dir": "NE",
+        "humidity": 64,
+        "condition": "scattered clouds"
+      }
+    },
+    {
+      "gameId": "2025-05-21_KansasCityRoyals@SanFranciscoGiants",
+      "gameDate": "2025-05-21",
+      "predictedTotal": 8.9,
+      "actualTotal": 12,
+      "prediction": "Over",
+      "actualResult": "Over",
+      "correct": true,
+      "confidence": 0.75,
+      "edge": 3.0999999999999996,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Over",
+          "total": 8.6,
+          "confidence": 0.847090155488564,
+          "correct": true
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 10.5,
+          "confidence": 0.6168020334912692,
+          "correct": true
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Under",
+          "total": 8,
+          "confidence": 0.8363742775494623,
+          "correct": false
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Over",
+          "total": 8.7,
+          "confidence": 0.700461669817826,
+          "correct": true
+        }
+      },
+      "weatherData": {
+        "temp_f": 73.5,
+        "wind_mph": 13.5,
+        "wind_dir": "SW",
+        "humidity": 84,
+        "condition": "few clouds"
+      }
+    },
+    {
+      "gameId": "2025-05-21_ClevelandGuardians@MinnesotaTwins",
+      "gameDate": "2025-05-21",
+      "predictedTotal": 8.1,
+      "actualTotal": 6,
+      "prediction": "Under",
+      "actualResult": "Under",
+      "correct": true,
+      "confidence": 0.722,
+      "edge": 2.0999999999999996,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Under",
+          "total": 7.9,
+          "confidence": 0.692188118057879,
+          "correct": true
+        },
+        "Model_B_Offense": {
+          "prediction": "Under",
+          "total": 7.7,
+          "confidence": 0.6188941617542655,
+          "correct": true
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Under",
+          "total": 8.3,
+          "confidence": 0.7355508172349778,
+          "correct": true
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Over",
+          "total": 8.6,
+          "confidence": 0.8404672553895711,
+          "correct": false
+        }
+      },
+      "weatherData": {
+        "temp_f": 90.9,
+        "wind_mph": 13,
+        "wind_dir": "W",
+        "humidity": 72,
+        "condition": "few clouds"
+      }
+    },
+    {
+      "gameId": "2025-05-21_NewYorkMets@BostonRedSox",
+      "gameDate": "2025-05-21",
+      "predictedTotal": 8.8,
+      "actualTotal": 6,
+      "prediction": "Over",
+      "actualResult": "Under",
+      "correct": false,
+      "confidence": 0.705,
+      "edge": 2.8000000000000007,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Under",
+          "total": 7.3,
+          "confidence": 0.6477762117826033,
+          "correct": true
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 9.6,
+          "confidence": 0.6100506025435386,
+          "correct": false
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Over",
+          "total": 9.8,
+          "confidence": 0.7462216071456745,
+          "correct": false
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Under",
+          "total": 8.4,
+          "confidence": 0.8146293790146377,
+          "correct": true
+        }
+      },
+      "weatherData": {
+        "temp_f": 89,
+        "wind_mph": 5.2,
+        "wind_dir": "NE",
+        "humidity": 74,
+        "condition": "few clouds"
+      }
+    },
+    {
+      "gameId": "2025-05-21_TexasRangers@NewYorkYankees",
+      "gameDate": "2025-05-21",
+      "predictedTotal": 9.1,
+      "actualTotal": 7,
+      "prediction": "Over",
+      "actualResult": "Under",
+      "correct": false,
+      "confidence": 0.777,
+      "edge": 2.0999999999999996,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Under",
+          "total": 8,
+          "confidence": 0.7774323317847336,
+          "correct": true
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 9.8,
+          "confidence": 0.7985628610608545,
+          "correct": false
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Over",
+          "total": 10,
+          "confidence": 0.7322133378935496,
+          "correct": false
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Over",
+          "total": 8.6,
+          "confidence": 0.7998570630982169,
+          "correct": false
+        }
+      },
+      "weatherData": {
+        "temp_f": 91.2,
+        "wind_mph": 6.6,
+        "wind_dir": "W",
+        "humidity": 62,
+        "condition": "few clouds"
+      }
+    },
+    {
+      "gameId": "2025-05-21_SanDiegoPadres@TorontoBlueJays",
+      "gameDate": "2025-05-21",
+      "predictedTotal": 8.9,
+      "actualTotal": 14,
+      "prediction": "Over",
+      "actualResult": "Over",
+      "correct": true,
+      "confidence": 0.671,
+      "edge": 5.1,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Over",
+          "total": 8.9,
+          "confidence": 0.709713827740684,
+          "correct": true
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 9.4,
+          "confidence": 0.563733555768271,
+          "correct": true
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Over",
+          "total": 8.7,
+          "confidence": 0.7204308541525141,
+          "correct": true
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Over",
+          "total": 8.7,
+          "confidence": 0.6905219570572365,
+          "correct": true
+        }
+      },
+      "weatherData": {
+        "temp_f": 94.8,
+        "wind_mph": 9,
+        "wind_dir": "SE",
+        "humidity": 74,
+        "condition": "clear sky"
+      }
+    },
+    {
+      "gameId": "2025-05-22_PhiladelphiaPhillies@ColoradoRockies",
+      "gameDate": "2025-05-22",
+      "predictedTotal": 9.6,
+      "actualTotal": 14,
+      "prediction": "Over",
+      "actualResult": "Over",
+      "correct": true,
+      "confidence": 0.688,
+      "edge": 4.4,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Over",
+          "total": 9.2,
+          "confidence": 0.7315738693942262,
+          "correct": true
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 10,
+          "confidence": 0.7027497199528825,
+          "correct": true
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Over",
+          "total": 10.5,
+          "confidence": 0.7041633157952892,
+          "correct": true
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Over",
+          "total": 8.7,
+          "confidence": 0.612746581352519,
+          "correct": true
+        }
+      },
+      "weatherData": {
+        "temp_f": 89.7,
+        "wind_mph": 12.2,
+        "wind_dir": "E",
+        "humidity": 66,
+        "condition": "scattered clouds"
+      }
+    },
+    {
+      "gameId": "2025-05-22_LosAngelesAngels@Athletics",
+      "gameDate": "2025-05-22",
+      "predictedTotal": 8.2,
+      "actualTotal": 15,
+      "prediction": "Under",
+      "actualResult": "Over",
+      "correct": false,
+      "confidence": 0.687,
+      "edge": 6.800000000000001,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Under",
+          "total": 7.8,
+          "confidence": 0.6560603680218909,
+          "correct": false
+        },
+        "Model_B_Offense": {
+          "prediction": "Under",
+          "total": 7.9,
+          "confidence": 0.6249989334642395,
+          "correct": false
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Under",
+          "total": 8.3,
+          "confidence": 0.8066292521522114,
+          "correct": false
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Over",
+          "total": 8.6,
+          "confidence": 0.6614055219055782,
+          "correct": true
+        }
+      },
+      "weatherData": {
+        "temp_f": 86.8,
+        "wind_mph": 11.3,
+        "wind_dir": "SW",
+        "humidity": 60,
+        "condition": "clear sky"
+      }
+    },
+    {
+      "gameId": "2025-05-22_ArizonaDiamondbacks@LosAngelesDodgers",
+      "gameDate": "2025-05-22",
+      "predictedTotal": 8.7,
+      "actualTotal": 4,
+      "prediction": "Over",
+      "actualResult": "Under",
+      "correct": false,
+      "confidence": 0.731,
+      "edge": 4.699999999999999,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Under",
+          "total": 7.3,
+          "confidence": 0.7775492929932084,
+          "correct": true
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 9.6,
+          "confidence": 0.6655730732565274,
+          "correct": false
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Over",
+          "total": 9.2,
+          "confidence": 0.794644809129502,
+          "correct": false
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Over",
+          "total": 8.6,
+          "confidence": 0.6850898677338271,
+          "correct": false
+        }
+      },
+      "weatherData": {
+        "temp_f": 87.2,
+        "wind_mph": 3.2,
+        "wind_dir": "SE",
+        "humidity": 43,
+        "condition": "scattered clouds"
+      }
+    },
+    {
+      "gameId": "2025-05-22_TexasRangers@NewYorkYankees",
+      "gameDate": "2025-05-22",
+      "predictedTotal": 9.2,
+      "actualTotal": 1,
+      "prediction": "Over",
+      "actualResult": "Under",
+      "correct": false,
+      "confidence": 0.725,
+      "edge": 8.2,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Under",
+          "total": 8.4,
+          "confidence": 0.719229326421492,
+          "correct": true
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 10.4,
+          "confidence": 0.5944490262247796,
+          "correct": false
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Over",
+          "total": 9.4,
+          "confidence": 0.8283010164742055,
+          "correct": false
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Over",
+          "total": 8.7,
+          "confidence": 0.7578864333886041,
+          "correct": false
+        }
+      },
+      "weatherData": {
+        "temp_f": 89,
+        "wind_mph": 11.9,
+        "wind_dir": "E",
+        "humidity": 73,
+        "condition": "scattered clouds"
+      }
+    },
+    {
+      "gameId": "2025-05-22_SanDiegoPadres@TorontoBlueJays",
+      "gameDate": "2025-05-22",
+      "predictedTotal": 8.9,
+      "actualTotal": 13,
+      "prediction": "Over",
+      "actualResult": "Over",
+      "correct": true,
+      "confidence": 0.758,
+      "edge": 4.1,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Over",
+          "total": 9.2,
+          "confidence": 0.7992634686464171,
+          "correct": true
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 9.1,
+          "confidence": 0.6197959331197517,
+          "correct": true
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Over",
+          "total": 9,
+          "confidence": 0.8021343060233295,
+          "correct": true
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Under",
+          "total": 8.3,
+          "confidence": 0.8092345683947539,
+          "correct": false
+        }
+      },
+      "weatherData": {
+        "temp_f": 91.4,
+        "wind_mph": 10.5,
+        "wind_dir": "W",
+        "humidity": 58,
+        "condition": "few clouds"
+      }
+    },
+    {
+      "gameId": "2025-05-22_PhiladelphiaPhillies@ColoradoRockies",
+      "gameDate": "2025-05-22",
+      "predictedTotal": 8.8,
+      "actualTotal": 2,
+      "prediction": "Over",
+      "actualResult": "Under",
+      "correct": false,
+      "confidence": 0.681,
+      "edge": 6.800000000000001,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Under",
+          "total": 8,
+          "confidence": 0.6399641879797894,
+          "correct": true
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 9,
+          "confidence": 0.6114466679547983,
+          "correct": false
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Over",
+          "total": 9.6,
+          "confidence": 0.7331262886619553,
+          "correct": false
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Over",
+          "total": 8.7,
+          "confidence": 0.7391836468834727,
+          "correct": false
+        }
+      },
+      "weatherData": {
+        "temp_f": 89.4,
+        "wind_mph": 7.7,
+        "wind_dir": "SE",
+        "humidity": 68,
+        "condition": "scattered clouds"
+      }
+    },
+    {
+      "gameId": "2025-05-22_LosAngelesAngels@Athletics",
+      "gameDate": "2025-05-22",
+      "predictedTotal": 8.3,
+      "actualTotal": 15,
+      "prediction": "Under",
+      "actualResult": "Over",
+      "correct": false,
+      "confidence": 0.695,
+      "edge": 6.699999999999999,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Under",
+          "total": 7.8,
+          "confidence": 0.6024383179852735,
+          "correct": false
+        },
+        "Model_B_Offense": {
+          "prediction": "Under",
+          "total": 7.9,
+          "confidence": 0.6558771782571177,
+          "correct": false
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Over",
+          "total": 9.1,
+          "confidence": 0.7328840145697735,
+          "correct": true
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Over",
+          "total": 8.6,
+          "confidence": 0.7896332269382433,
+          "correct": true
+        }
+      },
+      "weatherData": {
+        "temp_f": 87,
+        "wind_mph": 14,
+        "wind_dir": "SE",
+        "humidity": 74,
+        "condition": "scattered clouds"
+      }
+    },
+    {
+      "gameId": "2025-05-22_ClevelandGuardians@DetroitTigers",
+      "gameDate": "2025-05-22",
+      "predictedTotal": 8.6,
+      "actualTotal": 7,
+      "prediction": "Over",
+      "actualResult": "Under",
+      "correct": false,
+      "confidence": 0.77,
+      "edge": 1.5999999999999996,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Over",
+          "total": 9.5,
+          "confidence": 0.6841616936135198,
+          "correct": false
+        },
+        "Model_B_Offense": {
+          "prediction": "Under",
+          "total": 7.8,
+          "confidence": 0.803382906485928,
+          "correct": true
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Under",
+          "total": 8.3,
+          "confidence": 0.8274950301729668,
+          "correct": true
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Over",
+          "total": 8.6,
+          "confidence": 0.7651810990135048,
+          "correct": false
+        }
+      },
+      "weatherData": {
+        "temp_f": 88.3,
+        "wind_mph": 8.5,
+        "wind_dir": "E",
+        "humidity": 74,
+        "condition": "scattered clouds"
+      }
+    },
+    {
+      "gameId": "2025-05-22_MilwaukeeBrewers@PittsburghPirates",
+      "gameDate": "2025-05-22",
+      "predictedTotal": 8.6,
+      "actualTotal": 13,
+      "prediction": "Over",
+      "actualResult": "Over",
+      "correct": true,
+      "confidence": 0.797,
+      "edge": 4.4,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Over",
+          "total": 8.6,
+          "confidence": 0.7699140250527222,
+          "correct": true
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 9,
+          "confidence": 0.7361158390489906,
+          "correct": true
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Under",
+          "total": 8.3,
+          "confidence": 0.8375845763250656,
+          "correct": false
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Over",
+          "total": 8.6,
+          "confidence": 0.8440147594756118,
+          "correct": true
+        }
+      },
+      "weatherData": {
+        "temp_f": 93.4,
+        "wind_mph": 10.3,
+        "wind_dir": "N",
+        "humidity": 74,
+        "condition": "few clouds"
+      }
+    },
+    {
+      "gameId": "2025-05-22_AtlantaBraves@WashingtonNationals",
+      "gameDate": "2025-05-22",
+      "predictedTotal": 9,
+      "actualTotal": 15,
+      "prediction": "Over",
+      "actualResult": "Over",
+      "correct": true,
+      "confidence": 0.702,
+      "edge": 6,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Over",
+          "total": 8.5,
+          "confidence": 0.6581275754547197,
+          "correct": true
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 10.1,
+          "confidence": 0.5978973970271223,
+          "correct": true
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Over",
+          "total": 9,
+          "confidence": 0.7873648674113111,
+          "correct": true
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Under",
+          "total": 8.4,
+          "confidence": 0.7639208855911765,
+          "correct": false
+        }
+      },
+      "weatherData": {
+        "temp_f": 94.2,
+        "wind_mph": 12.1,
+        "wind_dir": "SW",
+        "humidity": 62,
+        "condition": "scattered clouds"
+      }
+    },
+    {
+      "gameId": "2025-05-23_SeattleMariners@HoustonAstros",
+      "gameDate": "2025-05-23",
+      "predictedTotal": 9,
+      "actualTotal": 11,
+      "prediction": "Over",
+      "actualResult": "Over",
+      "correct": true,
+      "confidence": 0.703,
+      "edge": 2,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Over",
+          "total": 8.8,
+          "confidence": 0.6614697630684989,
+          "correct": true
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 10.4,
+          "confidence": 0.6062418967794082,
+          "correct": true
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Under",
+          "total": 8.4,
+          "confidence": 0.7508629450637992,
+          "correct": false
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Over",
+          "total": 8.5,
+          "confidence": 0.794379441862812,
+          "correct": true
+        }
+      },
+      "weatherData": {
+        "temp_f": 92.8,
+        "wind_mph": 14.5,
+        "wind_dir": "NW",
+        "humidity": 70,
+        "condition": "scattered clouds"
+      }
+    },
+    {
+      "gameId": "2025-05-23_BaltimoreOrioles@BostonRedSox",
+      "gameDate": "2025-05-23",
+      "predictedTotal": 9,
+      "actualTotal": 24,
+      "prediction": "Over",
+      "actualResult": "Over",
+      "correct": true,
+      "confidence": 0.766,
+      "edge": 15,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Over",
+          "total": 8.6,
+          "confidence": 0.7038239970931282,
+          "correct": true
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 10,
+          "confidence": 0.7804174695185968,
+          "correct": true
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Over",
+          "total": 8.8,
+          "confidence": 0.7356272113612644,
+          "correct": true
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Over",
+          "total": 8.5,
+          "confidence": 0.8446181179413308,
+          "correct": true
+        }
+      },
+      "weatherData": {
+        "temp_f": 91.8,
+        "wind_mph": 10.4,
+        "wind_dir": "NE",
+        "humidity": 70,
+        "condition": "scattered clouds"
+      }
+    },
+    {
+      "gameId": "2025-05-23_ChicagoCubs@CincinnatiReds",
+      "gameDate": "2025-05-23",
+      "predictedTotal": 9.2,
+      "actualTotal": 19,
+      "prediction": "Over",
+      "actualResult": "Over",
+      "correct": true,
+      "confidence": 0.792,
+      "edge": 9.8,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Over",
+          "total": 9.7,
+          "confidence": 0.7907646095767659,
+          "correct": true
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 10.4,
+          "confidence": 0.847599737956915,
+          "correct": true
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Over",
+          "total": 8.5,
+          "confidence": 0.8091999159745495,
+          "correct": true
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Under",
+          "total": 8.3,
+          "confidence": 0.7204014627477715,
+          "correct": false
+        }
+      },
+      "weatherData": {
+        "temp_f": 86.6,
+        "wind_mph": 10.2,
+        "wind_dir": "NW",
+        "humidity": 56,
+        "condition": "scattered clouds"
+      }
+    },
+    {
+      "gameId": "2025-05-23_MilwaukeeBrewers@PittsburghPirates",
+      "gameDate": "2025-05-23",
+      "predictedTotal": 8.8,
+      "actualTotal": 11,
+      "prediction": "Over",
+      "actualResult": "Over",
+      "correct": true,
+      "confidence": 0.707,
+      "edge": 2.1999999999999993,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Over",
+          "total": 9.1,
+          "confidence": 0.752977243506703,
+          "correct": true
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 9.1,
+          "confidence": 0.6077917308438197,
+          "correct": true
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Over",
+          "total": 8.8,
+          "confidence": 0.6863226322543697,
+          "correct": true
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Under",
+          "total": 8.4,
+          "confidence": 0.7799427222952802,
+          "correct": false
+        }
+      },
+      "weatherData": {
+        "temp_f": 93.9,
+        "wind_mph": 13.1,
+        "wind_dir": "NE",
+        "humidity": 66,
+        "condition": "clear sky"
+      }
+    },
+    {
+      "gameId": "2025-05-23_SanFranciscoGiants@WashingtonNationals",
+      "gameDate": "2025-05-23",
+      "predictedTotal": 8.9,
+      "actualTotal": 4,
+      "prediction": "Over",
+      "actualResult": "Under",
+      "correct": false,
+      "confidence": 0.732,
+      "edge": 4.9,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Under",
+          "total": 7.2,
+          "confidence": 0.7838193976678542,
+          "correct": true
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 10.9,
+          "confidence": 0.5641532819816325,
+          "correct": false
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Over",
+          "total": 8.8,
+          "confidence": 0.8180219730915705,
+          "correct": false
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Over",
+          "total": 8.6,
+          "confidence": 0.7636947937669153,
+          "correct": false
+        }
+      },
+      "weatherData": {
+        "temp_f": 91.9,
+        "wind_mph": 14.6,
+        "wind_dir": "W",
+        "humidity": 68,
+        "condition": "clear sky"
+      }
+    },
+    {
+      "gameId": "2025-05-23_TorontoBlueJays@TampaBayRays",
+      "gameDate": "2025-05-23",
+      "predictedTotal": 9.3,
+      "actualTotal": 4,
+      "prediction": "Over",
+      "actualResult": "Under",
+      "correct": false,
+      "confidence": 0.699,
+      "edge": 5.300000000000001,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Over",
+          "total": 9.2,
+          "confidence": 0.8214289268496958,
+          "correct": false
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 9.9,
+          "confidence": 0.5801833737979162,
+          "correct": false
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Over",
+          "total": 9.3,
+          "confidence": 0.7554322581907338,
+          "correct": false
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Over",
+          "total": 8.7,
+          "confidence": 0.6389837711122863,
+          "correct": false
+        }
+      },
+      "weatherData": {
+        "temp_f": 95.2,
+        "wind_mph": 14.8,
+        "wind_dir": "SW",
+        "humidity": 62,
+        "condition": "clear sky"
+      }
+    },
+    {
+      "gameId": "2025-05-23_ClevelandGuardians@DetroitTigers",
+      "gameDate": "2025-05-23",
+      "predictedTotal": 9,
+      "actualTotal": 4,
+      "prediction": "Over",
+      "actualResult": "Under",
+      "correct": false,
+      "confidence": 0.7,
+      "edge": 5,
+      "modelBreakdown": {
+        "Model_A_Pitching": {
+          "prediction": "Over",
+          "total": 9.6,
+          "confidence": 0.6127265570024217,
+          "correct": false
+        },
+        "Model_B_Offense": {
+          "prediction": "Over",
+          "total": 8.9,
+          "confidence": 0.6512271038289409,
+          "correct": false
+        },
+        "Model_C_Weather_Park": {
+          "prediction": "Over",
+          "total": 9.2,
+          "confidence": 0.7955310853530506,
+          "correct": false
+        },
+        "Model_D_Market_Sentiment": {
+          "prediction": "Under",
+          "total": 8.4,
+          "confidence": 0.7397392885072102,
+          "correct": true
+        }
+      },
+      "weatherData": {
+        "temp_f": 92.7,
+        "wind_mph": 14.6,
+        "wind_dir": "N",
+        "humidity": 63,
+        "condition": "few clouds"
+      }
+    }
+  ],
+  "timestamp": "2025-07-15T23:22:05.705Z"
+}

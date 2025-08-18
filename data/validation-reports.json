@@ -1,0 +1,450 @@
+[
+  {
+    "reportId": "validation_1754505826686",
+    "timestamp": "2025-08-06T18:43:46.686Z",
+    "windowStart": "2025-07-09",
+    "windowEnd": "2025-08-06",
+    "gamesAnalyzed": 14,
+    "overallMetrics": {
+      "meanAbsoluteError": 6.250000000000001,
+      "meanSquaredError": 93.76714285714286,
+      "rootMeanSquaredError": 9.683343578389794,
+      "meanAbsolutePercentageError": 138.20707070707067,
+      "r2Score": -0.02971537427162696,
+      "bias": -2.9357142857142886,
+      "accuracy": 14.285714285714285,
+      "directionAccuracy": 64.28571428571429
+    },
+    "venueMetrics": {
+      "Tropicana Field": {
+        "meanAbsoluteError": 1.200000000000001,
+        "meanSquaredError": 2.440000000000002,
+        "rootMeanSquaredError": 1.5620499351813315,
+        "meanAbsolutePercentageError": 11.111111111111121,
+        "r2Score": -1.4400000000000022,
+        "bias": -1.200000000000001,
+        "accuracy": 50,
+        "directionAccuracy": 100
+      }
+    },
+    "weatherMetrics": {
+      "Hot (85°F+)": {
+        "meanAbsoluteError": 15.35,
+        "meanSquaredError": 305.36750000000006,
+        "rootMeanSquaredError": 17.474767523489405,
+        "meanAbsolutePercentageError": 385.9090909090908,
+        "r2Score": -0.19284179687500025,
+        "bias": -8.350000000000001,
+        "accuracy": 0,
+        "directionAccuracy": 100
+      },
+      "Moderate (70-85°F)": {
+        "meanAbsoluteError": 2.610000000000001,
+        "meanSquaredError": 9.127000000000006,
+        "rootMeanSquaredError": 3.0210925176167653,
+        "meanAbsolutePercentageError": 39.12626262626263,
+        "r2Score": -0.3422058823529419,
+        "bias": -0.7699999999999996,
+        "accuracy": 20,
+        "directionAccuracy": 50
+      }
+    },
+    "pitcherMetrics": {},
+    "teamMetrics": {
+      "Yankees": {
+        "meanAbsoluteError": 1.566666666666668,
+        "meanSquaredError": 3.4033333333333378,
+        "rootMeanSquaredError": 1.8448125469362295,
+        "meanAbsolutePercentageError": 14.377104377104388,
+        "r2Score": -2.8287500000000048,
+        "bias": -1.56666666666667,
+        "accuracy": 33.33333333333333,
+        "directionAccuracy": 83.33333333333334
+      },
+      "Angels": {
+        "meanAbsoluteError": 5.799999999999999,
+        "meanSquaredError": 35.09124999999999,
+        "rootMeanSquaredError": 5.923786795623218,
+        "meanAbsolutePercentageError": 407.49999999999994,
+        "r2Score": -14.596111111111107,
+        "bias": 5.799999999999999,
+        "accuracy": 0,
+        "directionAccuracy": 50
+      },
+      "Rays": {
+        "meanAbsoluteError": 1.200000000000001,
+        "meanSquaredError": 2.440000000000002,
+        "rootMeanSquaredError": 1.5620499351813315,
+        "meanAbsolutePercentageError": 11.111111111111121,
+        "r2Score": -1.4400000000000022,
+        "bias": -1.200000000000001,
+        "accuracy": 50,
+        "directionAccuracy": 100
+      }
+    },
+    "temporalMetrics": {
+      "Last 7 Days": {
+        "meanAbsoluteError": 9.1625,
+        "meanSquaredError": 157.46000000000004,
+        "rootMeanSquaredError": 12.54830665866913,
+        "meanAbsolutePercentageError": 207.3295454545454,
+        "r2Score": -0.1353582694907618,
+        "bias": -5.662500000000001,
+        "accuracy": 0,
+        "directionAccuracy": 75
+      },
+      "Last 14 Days": {
+        "meanAbsoluteError": 6.250000000000001,
+        "meanSquaredError": 93.76714285714286,
+        "rootMeanSquaredError": 9.683343578389794,
+        "meanAbsolutePercentageError": 138.20707070707067,
+        "r2Score": -0.02971537427162696,
+        "bias": -2.9357142857142886,
+        "accuracy": 14.285714285714285,
+        "directionAccuracy": 64.28571428571429
+      },
+      "Weekdays": {
+        "meanAbsoluteError": 6.600000000000001,
+        "meanSquaredError": 118.6165,
+        "rootMeanSquaredError": 10.891120236229145,
+        "meanAbsolutePercentageError": 45.989898989899,
+        "r2Score": -0.1786218203497616,
+        "bias": -4.76,
+        "accuracy": 20,
+        "directionAccuracy": 70
+      },
+      "Weekends": {
+        "meanAbsoluteError": 5.375,
+        "meanSquaredError": 31.643749999999997,
+        "rootMeanSquaredError": 5.625277770919405,
+        "meanAbsolutePercentageError": 368.7499999999999,
+        "r2Score": -0.5626543209876542,
+        "bias": 1.6249999999999982,
+        "accuracy": 0,
+        "directionAccuracy": 50
+      }
+    },
+    "suggestedAdjustments": [
+      {
+        "parameter": "hot_weather_coefficient",
+        "component": "weather",
+        "currentValue": 0.35,
+        "suggestedValue": 1.185,
+        "confidence": 70,
+        "rationale": "Hot weather shows -8.35 run bias",
+        "expectedImprovement": 3.3400000000000007,
+        "riskLevel": "Low"
+      },
+      {
+        "parameter": "august_baseline",
+        "component": "baseline",
+        "currentValue": 7.6,
+        "suggestedValue": 10.535714285714288,
+        "confidence": 85,
+        "rationale": "Overall bias of -2.94 runs detected",
+        "expectedImprovement": 2.055000000000002,
+        "riskLevel": "Medium"
+      }
+    ],
+    "modelPerformanceTrend": "Stable"
+  },
+  {
+    "reportId": "validation_1754580423655",
+    "timestamp": "2025-08-07T15:27:03.655Z",
+    "windowStart": "2025-07-10",
+    "windowEnd": "2025-08-07",
+    "gamesAnalyzed": 21,
+    "overallMetrics": {
+      "meanAbsoluteError": 6.190476190476192,
+      "meanSquaredError": 92.24976190476191,
+      "rootMeanSquaredError": 9.60467396139827,
+      "meanAbsolutePercentageError": 141.08369408369407,
+      "r2Score": -0.013052069326161542,
+      "bias": -2.8047619047619055,
+      "accuracy": 14.285714285714285,
+      "directionAccuracy": 61.904761904761905
+    },
+    "venueMetrics": {
+      "Yankee Stadium": {
+        "meanAbsoluteError": 2.2333333333333347,
+        "meanSquaredError": 5.0233333333333405,
+        "rootMeanSquaredError": 2.2412793965352336,
+        "meanAbsolutePercentageError": 20.303030303030315,
+        "r2Score": null,
+        "bias": -2.2333333333333343,
+        "accuracy": 0,
+        "directionAccuracy": 66.66666666666666
+      },
+      "T-Mobile Park": {
+        "meanAbsoluteError": 4.6,
+        "meanSquaredError": 21.159999999999997,
+        "rootMeanSquaredError": 4.6,
+        "meanAbsolutePercentageError": 114.99999999999999,
+        "r2Score": null,
+        "bias": 4.6,
+        "accuracy": 0,
+        "directionAccuracy": 0
+      },
+      "Tropicana Field": {
+        "meanAbsoluteError": 1.200000000000001,
+        "meanSquaredError": 2.4400000000000026,
+        "rootMeanSquaredError": 1.5620499351813317,
+        "meanAbsolutePercentageError": 11.111111111111121,
+        "r2Score": -1.4400000000000026,
+        "bias": -1.200000000000001,
+        "accuracy": 50,
+        "directionAccuracy": 100
+      },
+      "Coors Field": {
+        "meanAbsoluteError": 23.450000000000003,
+        "meanSquaredError": 550.0425000000001,
+        "rootMeanSquaredError": 23.452984884658076,
+        "meanAbsolutePercentageError": 71.06060606060606,
+        "r2Score": null,
+        "bias": -23.450000000000003,
+        "accuracy": 0,
+        "directionAccuracy": 100
+      },
+      "Angel Stadium": {
+        "meanAbsoluteError": 7.249999999999997,
+        "meanSquaredError": 52.70249999999998,
+        "rootMeanSquaredError": 7.259648751833657,
+        "meanAbsolutePercentageError": 724.9999999999998,
+        "r2Score": null,
+        "bias": 7.249999999999998,
+        "accuracy": 0,
+        "directionAccuracy": 66.66666666666666
+      },
+      "Oakland Coliseum": {
+        "meanAbsoluteError": 3.400000000000002,
+        "meanSquaredError": 11.940000000000012,
+        "rootMeanSquaredError": 3.4554305086342008,
+        "meanAbsolutePercentageError": 34.00000000000002,
+        "r2Score": null,
+        "bias": -3.400000000000002,
+        "accuracy": 0,
+        "directionAccuracy": 0
+      }
+    },
+    "weatherMetrics": {
+      "Hot (85°F+)": {
+        "meanAbsoluteError": 15.35,
+        "meanSquaredError": 301.37250000000006,
+        "rootMeanSquaredError": 17.360083525144688,
+        "meanAbsolutePercentageError": 398.0303030303029,
+        "r2Score": -0.17723632812500023,
+        "bias": -8.100000000000001,
+        "accuracy": 0,
+        "directionAccuracy": 83.33333333333334
+      },
+      "Moderate (70-85°F)": {
+        "meanAbsoluteError": 2.526666666666668,
+        "meanSquaredError": 8.600666666666672,
+        "rootMeanSquaredError": 2.9326893232435434,
+        "meanAbsolutePercentageError": 38.30505050505052,
+        "r2Score": -0.2648039215686282,
+        "bias": -0.6866666666666692,
+        "accuracy": 20,
+        "directionAccuracy": 53.333333333333336
+      }
+    },
+    "pitcherMetrics": {},
+    "teamMetrics": {
+      "Yankees": {
+        "meanAbsoluteError": 1.5444444444444456,
+        "meanSquaredError": 3.301111111111115,
+        "rootMeanSquaredError": 1.8168960099882203,
+        "meanAbsolutePercentageError": 14.175084175084187,
+        "r2Score": -2.7137500000000045,
+        "bias": -1.5444444444444478,
+        "accuracy": 33.33333333333333,
+        "directionAccuracy": 88.88888888888889
+      },
+      "Red Sox": {
+        "meanAbsoluteError": 2.2333333333333347,
+        "meanSquaredError": 5.0233333333333405,
+        "rootMeanSquaredError": 2.2412793965352336,
+        "meanAbsolutePercentageError": 20.303030303030315,
+        "r2Score": null,
+        "bias": -2.2333333333333343,
+        "accuracy": 0,
+        "directionAccuracy": 66.66666666666666
+      },
+      "Mariners": {
+        "meanAbsoluteError": 4.6,
+        "meanSquaredError": 21.159999999999997,
+        "rootMeanSquaredError": 4.6,
+        "meanAbsolutePercentageError": 114.99999999999999,
+        "r2Score": null,
+        "bias": 4.6,
+        "accuracy": 0,
+        "directionAccuracy": 0
+      },
+      "Angels": {
+        "meanAbsoluteError": 5.925,
+        "meanSquaredError": 36.931249999999984,
+        "rootMeanSquaredError": 6.077108687525671,
+        "meanAbsolutePercentageError": 419.99999999999994,
+        "r2Score": -15.413888888888884,
+        "bias": 5.924999999999999,
+        "accuracy": 0,
+        "directionAccuracy": 33.33333333333333
+      },
+      "Rays": {
+        "meanAbsoluteError": 1.200000000000001,
+        "meanSquaredError": 2.4400000000000026,
+        "rootMeanSquaredError": 1.5620499351813317,
+        "meanAbsolutePercentageError": 11.111111111111121,
+        "r2Score": -1.4400000000000026,
+        "bias": -1.200000000000001,
+        "accuracy": 50,
+        "directionAccuracy": 100
+      },
+      "Rockies": {
+        "meanAbsoluteError": 23.450000000000003,
+        "meanSquaredError": 550.0425000000001,
+        "rootMeanSquaredError": 23.452984884658076,
+        "meanAbsolutePercentageError": 71.06060606060606,
+        "r2Score": null,
+        "bias": -23.450000000000003,
+        "accuracy": 0,
+        "directionAccuracy": 100
+      },
+      "Pirates": {
+        "meanAbsoluteError": 23.450000000000003,
+        "meanSquaredError": 550.0425000000001,
+        "rootMeanSquaredError": 23.452984884658076,
+        "meanAbsolutePercentageError": 71.06060606060606,
+        "r2Score": null,
+        "bias": -23.450000000000003,
+        "accuracy": 0,
+        "directionAccuracy": 100
+      },
+      "White Sox": {
+        "meanAbsoluteError": 7.249999999999997,
+        "meanSquaredError": 52.70249999999998,
+        "rootMeanSquaredError": 7.259648751833657,
+        "meanAbsolutePercentageError": 724.9999999999998,
+        "r2Score": null,
+        "bias": 7.249999999999998,
+        "accuracy": 0,
+        "directionAccuracy": 66.66666666666666
+      },
+      "Athletics": {
+        "meanAbsoluteError": 3.400000000000002,
+        "meanSquaredError": 11.940000000000012,
+        "rootMeanSquaredError": 3.4554305086342008,
+        "meanAbsolutePercentageError": 34.00000000000002,
+        "r2Score": null,
+        "bias": -3.400000000000002,
+        "accuracy": 0,
+        "directionAccuracy": 0
+      },
+      "Diamondbacks": {
+        "meanAbsoluteError": 3.400000000000002,
+        "meanSquaredError": 11.940000000000012,
+        "rootMeanSquaredError": 3.4554305086342008,
+        "meanAbsolutePercentageError": 34.00000000000002,
+        "r2Score": null,
+        "bias": -3.400000000000002,
+        "accuracy": 0,
+        "directionAccuracy": 0
+      }
+    },
+    "temporalMetrics": {
+      "Last 7 Days": {
+        "meanAbsoluteError": 11.366666666666667,
+        "meanSquaredError": 204.89500000000004,
+        "rootMeanSquaredError": 14.314153834579256,
+        "meanAbsolutePercentageError": 276.6868686868686,
+        "r2Score": -0.12855263157894714,
+        "bias": -6.533333333333335,
+        "accuracy": 0,
+        "directionAccuracy": 55.55555555555556
+      },
+      "Last 14 Days": {
+        "meanAbsoluteError": 6.190476190476192,
+        "meanSquaredError": 92.24976190476191,
+        "rootMeanSquaredError": 9.60467396139827,
+        "meanAbsolutePercentageError": 141.08369408369407,
+        "r2Score": -0.013052069326161542,
+        "bias": -2.8047619047619055,
+        "accuracy": 14.285714285714285,
+        "directionAccuracy": 61.904761904761905
+      },
+      "Weekdays": {
+        "meanAbsoluteError": 6.536666666666668,
+        "meanSquaredError": 116.22116666666668,
+        "rootMeanSquaredError": 10.780592129686879,
+        "meanAbsolutePercentageError": 45.71717171717172,
+        "r2Score": -0.15482081346051957,
+        "bias": -4.696666666666667,
+        "accuracy": 20,
+        "directionAccuracy": 73.33333333333333
+      },
+      "Weekends": {
+        "meanAbsoluteError": 5.325,
+        "meanSquaredError": 32.32125,
+        "rootMeanSquaredError": 5.685178097474168,
+        "meanAbsolutePercentageError": 379.4999999999999,
+        "r2Score": -0.596111111111111,
+        "bias": 1.924999999999998,
+        "accuracy": 0,
+        "directionAccuracy": 33.33333333333333
+      }
+    },
+    "suggestedAdjustments": [
+      {
+        "parameter": "coors_field_adjustment",
+        "component": "venue",
+        "currentValue": 4,
+        "suggestedValue": 27.450000000000003,
+        "confidence": 75,
+        "rationale": "Coors Field shows -23.45 run bias with 0.0% accuracy",
+        "expectedImprovement": 14.070000000000002,
+        "riskLevel": "High"
+      },
+      {
+        "parameter": "venue_adjustment",
+        "component": "venue",
+        "currentValue": 0,
+        "suggestedValue": -7.249999999999998,
+        "confidence": 75,
+        "rationale": "Angel Stadium shows 7.25 run bias with 0.0% accuracy",
+        "expectedImprovement": 4.349999999999999,
+        "riskLevel": "High"
+      },
+      {
+        "parameter": "hot_weather_coefficient",
+        "component": "weather",
+        "currentValue": 0.35,
+        "suggestedValue": 1.1600000000000001,
+        "confidence": 70,
+        "rationale": "Hot weather shows -8.10 run bias",
+        "expectedImprovement": 3.2400000000000007,
+        "riskLevel": "Low"
+      },
+      {
+        "parameter": "venue_adjustment",
+        "component": "venue",
+        "currentValue": 0,
+        "suggestedValue": -4.6,
+        "confidence": 75,
+        "rationale": "T-Mobile Park shows 4.60 run bias with 0.0% accuracy",
+        "expectedImprovement": 2.76,
+        "riskLevel": "High"
+      },
+      {
+        "parameter": "venue_adjustment",
+        "component": "venue",
+        "currentValue": 0,
+        "suggestedValue": 3.400000000000002,
+        "confidence": 75,
+        "rationale": "Oakland Coliseum shows -3.40 run bias with 0.0% accuracy",
+        "expectedImprovement": 2.0400000000000014,
+        "riskLevel": "High"
+      }
+    ],
+    "modelPerformanceTrend": "Stable"
+  }
+]

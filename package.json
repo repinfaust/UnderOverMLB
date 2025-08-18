@@ -1,0 +1,67 @@
+{
+  "name": "mlb-prediction-system",
+  "version": "1.0.0",
+  "description": "MLB Over/Under Prediction System with 4 models and ensemble logic",
+  "main": "dist/main.js",
+  "bin": {
+    "mlb-predictions": "dist/main.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/main.js start",
+    "dev": "ts-node src/main.ts",
+    "predict": "npx ts-node scripts/real-predict.ts",
+    "predict:enhanced": "npx ts-node scripts/enhanced-predict.ts",
+    "backtest:enhanced": "npx ts-node scripts/historical-backtest-enhanced.ts",
+    "daily": "ts-node src/main.ts daily",
+    "health": "ts-node src/main.ts health",
+    "metrics": "ts-node src/main.ts metrics",
+    "batch": "ts-node src/main.ts batch",
+    "backtest": "npx ts-node scripts/backtest-models.ts",
+    "setup": "ts-node src/main.ts setup",
+    "daemon": "ts-node src/main.ts start --daemon",
+    "servers:mlb": "ts-node src/servers/mlb-data-server.ts",
+    "servers:market": "ts-node src/servers/market-server.ts",
+    "servers:prediction": "ts-node src/servers/prediction-server.ts",
+    "servers:analytics": "ts-node src/servers/analytics-server.ts",
+    "build:production": "tsc && npm run lint && npm run type-check",
+    "type-check": "tsc --noEmit",
+    "test": "jest",
+    "lint": "eslint src/**/*.ts",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "mlb",
+    "prediction",
+    "sports-betting",
+    "over-under",
+    "machine-learning",
+    "mcp"
+  ],
+  "author": "MLB Prediction System",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.4.0",
+    "axios": "^1.6.0",
+    "commander": "^11.1.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "pg": "^8.11.3",
+    "redis": "^4.6.10"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.20",
+    "@types/node": "^20.8.0",
+    "@types/pg": "^8.10.7",
+    "@typescript-eslint/eslint-plugin": "^6.8.0",
+    "@typescript-eslint/parser": "^6.8.0",
+    "eslint": "^8.51.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

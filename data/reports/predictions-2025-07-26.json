@@ -1,0 +1,146 @@
+{
+  "date": "2025-07-26",
+  "generated_at": "2025-07-26T18:30:00Z",
+  "total_games": 16,
+  "games_meeting_threshold": 13,
+  "confidence_threshold": 75,
+  "day_warning": "Saturday - Sub-optimal day for accuracy",
+  "predictions": [
+    {
+      "game": "Philadelphia Phillies @ New York Yankees",
+      "prediction": "Under",
+      "calculated_total": 8.0,
+      "market_total": 7.5,
+      "confidence": 76.7,
+      "recommendation": "LEAN Under",
+      "edge": 0.5,
+      "odds": "-136/102"
+    },
+    {
+      "game": "Arizona Diamondbacks @ Pittsburgh Pirates", 
+      "prediction": "Under",
+      "calculated_total": 8.0,
+      "market_total": 9.0,
+      "confidence": 81.4,
+      "recommendation": "STRONG Under",
+      "edge": 1.0,
+      "odds": "-105/-115"
+    },
+    {
+      "game": "Colorado Rockies @ Baltimore Orioles",
+      "prediction": "Over", 
+      "calculated_total": 9.3,
+      "market_total": 9.5,
+      "confidence": 93.3,
+      "recommendation": "SLIGHT Over",
+      "edge": 0.2,
+      "odds": "-105/-115"
+    },
+    {
+      "game": "Atlanta Braves @ Texas Rangers",
+      "prediction": "Under",
+      "calculated_total": 8.3,
+      "market_total": 8.5, 
+      "confidence": 84.0,
+      "recommendation": "SLIGHT Under",
+      "edge": 0.2,
+      "odds": "-115/-105"
+    },
+    {
+      "game": "Athletics @ Houston Astros",
+      "prediction": "Over",
+      "calculated_total": 8.5,
+      "market_total": 7.5,
+      "confidence": 75.6,
+      "recommendation": "LEAN Over",
+      "edge": 1.0,
+      "odds": "-115/-105"
+    },
+    {
+      "game": "Washington Nationals @ Minnesota Twins",
+      "prediction": "Over",
+      "calculated_total": 8.5,
+      "market_total": 9.0,
+      "confidence": 84.0,
+      "recommendation": "LEAN Over", 
+      "edge": 0.5,
+      "odds": "-105/-115"
+    },
+    {
+      "game": "Chicago Cubs @ Chicago White Sox",
+      "prediction": "Under",
+      "calculated_total": 8.5,
+      "market_total": 9.0,
+      "confidence": 84.8,
+      "recommendation": "STRONG Under",
+      "edge": 0.5,
+      "odds": "-120/100"
+    },
+    {
+      "game": "Miami Marlins @ Milwaukee Brewers",
+      "prediction": "Under",
+      "calculated_total": 8.4,
+      "market_total": 8.5,
+      "confidence": 84.9,
+      "recommendation": "SLIGHT Under",
+      "edge": 0.1,
+      "odds": "-102/-118"
+    },
+    {
+      "game": "Los Angeles Dodgers @ Boston Red Sox",
+      "prediction": "Over",
+      "calculated_total": 8.7,
+      "market_total": 9.0,
+      "confidence": 87.0,
+      "recommendation": "LEAN Over",
+      "edge": 0.3,
+      "odds": "-120/100"
+    },
+    {
+      "game": "San Diego Padres @ St. Louis Cardinals",
+      "prediction": "Over",
+      "calculated_total": 8.8,
+      "market_total": 9.0,
+      "confidence": 76.9,
+      "recommendation": "SLIGHT Over",
+      "edge": 0.2,
+      "odds": "-114/-106"
+    },
+    {
+      "game": "New York Mets @ San Francisco Giants",
+      "prediction": "Over",
+      "calculated_total": 8.7,
+      "market_total": 7.5,
+      "confidence": 84.0,
+      "recommendation": "STRONG Over",
+      "edge": 1.2,
+      "odds": "-118/-102"
+    },
+    {
+      "game": "Seattle Mariners @ Los Angeles Angels",
+      "prediction": "Under",
+      "calculated_total": 7.7,
+      "market_total": 8.5,
+      "confidence": 83.2,
+      "recommendation": "STRONG Under",
+      "edge": 0.8,
+      "odds": "-110/-110"
+    }
+  ],
+  "summary": {
+    "strong_plays": 4,
+    "lean_plays": 4,
+    "slight_plays": 4,
+    "no_plays": 4,
+    "under_predictions": 7,
+    "over_predictions": 5,
+    "average_confidence": 82.1,
+    "total_edge_opportunities": 6.2
+  },
+  "data_sources": {
+    "mlb_api": "live",
+    "odds_api": "live", 
+    "weather_api": "live",
+    "all_sources_healthy": true
+  }
+}

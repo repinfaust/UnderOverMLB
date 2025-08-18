@@ -1,0 +1,422 @@
+{
+  "overall_bias": {
+    "avg_predicted": 8.65,
+    "avg_actual": 9.01,
+    "bias": -0.36,
+    "direction": "Under-predicting"
+  },
+  "venue_bias": {
+    "Yankee Stadium": {
+      "count": 9,
+      "avg_predicted": 8.31,
+      "avg_actual": 11.44,
+      "bias": -3.14
+    },
+    "Comerica Park": {
+      "count": 10,
+      "avg_predicted": 8.64,
+      "avg_actual": 11.2,
+      "bias": -2.56
+    },
+    "PNC Park": {
+      "count": 12,
+      "avg_predicted": 8.66,
+      "avg_actual": 7.92,
+      "bias": 0.74
+    },
+    "Oriole Park at Camden Yards": {
+      "count": 9,
+      "avg_predicted": 8.83,
+      "avg_actual": 8.56,
+      "bias": 0.28
+    },
+    "Globe Life Field": {
+      "count": 9,
+      "avg_predicted": 8.58,
+      "avg_actual": 6.33,
+      "bias": 2.25
+    },
+    "Kauffman Stadium": {
+      "count": 8,
+      "avg_predicted": 8.88,
+      "avg_actual": 7.38,
+      "bias": 1.5
+    },
+    "Great American Ball Park": {
+      "count": 10,
+      "avg_predicted": 8.7,
+      "avg_actual": 7.7,
+      "bias": 1
+    },
+    "Progressive Field": {
+      "count": 12,
+      "avg_predicted": 8.81,
+      "avg_actual": 8.75,
+      "bias": 0.06
+    },
+    "Fenway Park": {
+      "count": 14,
+      "avg_predicted": 8.59,
+      "avg_actual": 9.43,
+      "bias": -0.84
+    },
+    "Rate Field": {
+      "count": 10,
+      "avg_predicted": 8.66,
+      "avg_actual": 8,
+      "bias": 0.66
+    },
+    "Chase Field": {
+      "count": 14,
+      "avg_predicted": 8.51,
+      "avg_actual": 8.79,
+      "bias": -0.27
+    },
+    "American Family Field": {
+      "count": 9,
+      "avg_predicted": 8.38,
+      "avg_actual": 7.56,
+      "bias": 0.82
+    },
+    "Daikin Park": {
+      "count": 8,
+      "avg_predicted": 9.1,
+      "avg_actual": 10.13,
+      "bias": -1.02
+    },
+    "Truist Park": {
+      "count": 14,
+      "avg_predicted": 8.81,
+      "avg_actual": 9,
+      "bias": -0.19
+    },
+    "Angel Stadium": {
+      "count": 9,
+      "avg_predicted": 8.56,
+      "avg_actual": 11.33,
+      "bias": -2.78
+    },
+    "Citizens Bank Park": {
+      "count": 12,
+      "avg_predicted": 8.78,
+      "avg_actual": 9.25,
+      "bias": -0.47
+    },
+    "Rogers Centre": {
+      "count": 13,
+      "avg_predicted": 8.59,
+      "avg_actual": 10.08,
+      "bias": -1.48
+    },
+    "George M. Steinbrenner Field": {
+      "count": 9,
+      "avg_predicted": 8.49,
+      "avg_actual": 10.33,
+      "bias": -1.85
+    },
+    "T-Mobile Park": {
+      "count": 12,
+      "avg_predicted": 8.58,
+      "avg_actual": 7.75,
+      "bias": 0.83
+    },
+    "loanDepot park": {
+      "count": 12,
+      "avg_predicted": 8.66,
+      "avg_actual": 6.33,
+      "bias": 2.33
+    },
+    "Wrigley Field": {
+      "count": 11,
+      "avg_predicted": 8.49,
+      "avg_actual": 8.82,
+      "bias": -0.32
+    },
+    "Coors Field": {
+      "count": 12,
+      "avg_predicted": 8.8,
+      "avg_actual": 10.25,
+      "bias": -1.45
+    },
+    "Dodger Stadium": {
+      "count": 11,
+      "avg_predicted": 8.72,
+      "avg_actual": 10.09,
+      "bias": -1.37
+    },
+    "Nationals Park": {
+      "count": 12,
+      "avg_predicted": 8.55,
+      "avg_actual": 11.17,
+      "bias": -2.62
+    },
+    "Citi Field": {
+      "count": 12,
+      "avg_predicted": 8.47,
+      "avg_actual": 9.33,
+      "bias": -0.86
+    },
+    "Target Field": {
+      "count": 9,
+      "avg_predicted": 8.67,
+      "avg_actual": 9.89,
+      "bias": -1.22
+    },
+    "Petco Park": {
+      "count": 8,
+      "avg_predicted": 8.7,
+      "avg_actual": 6.13,
+      "bias": 2.57
+    },
+    "Sutter Health Park": {
+      "count": 7,
+      "avg_predicted": 8.61,
+      "avg_actual": 8.86,
+      "bias": -0.24
+    },
+    "Oracle Park": {
+      "count": 6,
+      "avg_predicted": 9.22,
+      "avg_actual": 7.67,
+      "bias": 1.55
+    },
+    "Busch Stadium": {
+      "count": 8,
+      "avg_predicted": 8.48,
+      "avg_actual": 9.88,
+      "bias": -1.4
+    }
+  },
+  "weather_bias": {
+    "hot_weather": {
+      "count": 119,
+      "predicted": 8.84,
+      "actual": 8.51,
+      "bias": 0.32
+    },
+    "windy_conditions": {
+      "count": 61,
+      "predicted": 8.36,
+      "actual": 9,
+      "bias": -0.64
+    },
+    "dome_games": {
+      "count": 13,
+      "predicted": 8.59,
+      "actual": 10.08,
+      "bias": -1.48
+    }
+  },
+  "team_bias": {
+    "New York Yankees": {
+      "count": 9,
+      "avg_predicted": 8.31,
+      "avg_actual": 11.44,
+      "bias": -3.14
+    },
+    "Detroit Tigers": {
+      "count": 10,
+      "avg_predicted": 8.64,
+      "avg_actual": 11.2,
+      "bias": -2.56
+    },
+    "Pittsburgh Pirates": {
+      "count": 12,
+      "avg_predicted": 8.66,
+      "avg_actual": 7.92,
+      "bias": 0.74
+    },
+    "Baltimore Orioles": {
+      "count": 9,
+      "avg_predicted": 8.83,
+      "avg_actual": 8.56,
+      "bias": 0.28
+    },
+    "Texas Rangers": {
+      "count": 9,
+      "avg_predicted": 8.58,
+      "avg_actual": 6.33,
+      "bias": 2.25
+    },
+    "Kansas City Royals": {
+      "count": 8,
+      "avg_predicted": 8.88,
+      "avg_actual": 7.38,
+      "bias": 1.5
+    },
+    "Cincinnati Reds": {
+      "count": 10,
+      "avg_predicted": 8.7,
+      "avg_actual": 7.7,
+      "bias": 1
+    },
+    "Cleveland Guardians": {
+      "count": 12,
+      "avg_predicted": 8.81,
+      "avg_actual": 8.75,
+      "bias": 0.06
+    },
+    "Boston Red Sox": {
+      "count": 14,
+      "avg_predicted": 8.59,
+      "avg_actual": 9.43,
+      "bias": -0.84
+    },
+    "Chicago White Sox": {
+      "count": 10,
+      "avg_predicted": 8.66,
+      "avg_actual": 8,
+      "bias": 0.66
+    },
+    "Arizona Diamondbacks": {
+      "count": 14,
+      "avg_predicted": 8.51,
+      "avg_actual": 8.79,
+      "bias": -0.27
+    },
+    "Milwaukee Brewers": {
+      "count": 9,
+      "avg_predicted": 8.38,
+      "avg_actual": 7.56,
+      "bias": 0.82
+    },
+    "Houston Astros": {
+      "count": 8,
+      "avg_predicted": 9.1,
+      "avg_actual": 10.13,
+      "bias": -1.02
+    },
+    "Atlanta Braves": {
+      "count": 14,
+      "avg_predicted": 8.81,
+      "avg_actual": 9,
+      "bias": -0.19
+    },
+    "Los Angeles Angels": {
+      "count": 9,
+      "avg_predicted": 8.56,
+      "avg_actual": 11.33,
+      "bias": -2.78
+    },
+    "Philadelphia Phillies": {
+      "count": 12,
+      "avg_predicted": 8.78,
+      "avg_actual": 9.25,
+      "bias": -0.47
+    },
+    "Toronto Blue Jays": {
+      "count": 13,
+      "avg_predicted": 8.59,
+      "avg_actual": 10.08,
+      "bias": -1.48
+    },
+    "Tampa Bay Rays": {
+      "count": 9,
+      "avg_predicted": 8.49,
+      "avg_actual": 10.33,
+      "bias": -1.85
+    },
+    "Seattle Mariners": {
+      "count": 12,
+      "avg_predicted": 8.58,
+      "avg_actual": 7.75,
+      "bias": 0.83
+    },
+    "Miami Marlins": {
+      "count": 12,
+      "avg_predicted": 8.66,
+      "avg_actual": 6.33,
+      "bias": 2.33
+    },
+    "Chicago Cubs": {
+      "count": 11,
+      "avg_predicted": 8.49,
+      "avg_actual": 8.82,
+      "bias": -0.32
+    },
+    "Colorado Rockies": {
+      "count": 12,
+      "avg_predicted": 8.8,
+      "avg_actual": 10.25,
+      "bias": -1.45
+    },
+    "Los Angeles Dodgers": {
+      "count": 11,
+      "avg_predicted": 8.72,
+      "avg_actual": 10.09,
+      "bias": -1.37
+    },
+    "Washington Nationals": {
+      "count": 12,
+      "avg_predicted": 8.55,
+      "avg_actual": 11.17,
+      "bias": -2.62
+    },
+    "New York Mets": {
+      "count": 12,
+      "avg_predicted": 8.47,
+      "avg_actual": 9.33,
+      "bias": -0.86
+    },
+    "Minnesota Twins": {
+      "count": 9,
+      "avg_predicted": 8.67,
+      "avg_actual": 9.89,
+      "bias": -1.22
+    },
+    "San Diego Padres": {
+      "count": 8,
+      "avg_predicted": 8.7,
+      "avg_actual": 6.13,
+      "bias": 2.57
+    },
+    "Athletics": {
+      "count": 7,
+      "avg_predicted": 8.61,
+      "avg_actual": 8.86,
+      "bias": -0.24
+    },
+    "San Francisco Giants": {
+      "count": 6,
+      "avg_predicted": 9.22,
+      "avg_actual": 7.67,
+      "bias": 1.55
+    },
+    "St. Louis Cardinals": {
+      "count": 8,
+      "avg_predicted": 8.48,
+      "avg_actual": 9.88,
+      "bias": -1.4
+    }
+  },
+  "confidence_bias": {
+    "Low (45-65%)": {
+      "count": 1,
+      "avg_predicted": 8.06,
+      "avg_actual": 8,
+      "bias": 0.06,
+      "win_rate": 100
+    },
+    "Medium (65-75%)": {
+      "count": 153,
+      "avg_predicted": 8.67,
+      "avg_actual": 9.33,
+      "bias": -0.67,
+      "win_rate": 44.4
+    },
+    "High (75-85%)": {
+      "count": 155,
+      "avg_predicted": 8.64,
+      "avg_actual": 8.72,
+      "bias": -0.08,
+      "win_rate": 51
+    },
+    "Very High (85%+)": {
+      "count": 2,
+      "avg_predicted": 8.88,
+      "avg_actual": 8,
+      "bias": 0.88,
+      "win_rate": 50
+    }
+  }
+}

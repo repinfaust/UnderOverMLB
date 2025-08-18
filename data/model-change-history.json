@@ -1,0 +1,102 @@
+{
+  "modelVersion": "1.0.0",
+  "changes": [
+    {
+      "changeId": "venue_coors_field_adjustment_1754296239199",
+      "timestamp": "2025-08-04T08:30:39.200Z",
+      "description": "venue.coors_field_adjustment adjusted by 3",
+      "component": "venue",
+      "parameter": "coors_field_adjustment",
+      "oldValue": 0,
+      "newValue": 3,
+      "rationale": "Risk: High, Recommendation: Require Additional Analysis",
+      "expectedImpact": "Projected to affect 7 venues",
+      "riskAssessment": "High"
+    },
+    {
+      "changeId": "weather_hot_weather_coefficient_1754296239200",
+      "timestamp": "2025-08-04T08:30:39.201Z",
+      "description": "weather.hot_weather_coefficient adjusted by 0.19999999999999998",
+      "component": "weather",
+      "parameter": "hot_weather_coefficient",
+      "oldValue": 0,
+      "newValue": 0.19999999999999998,
+      "rationale": "Risk: Low, Recommendation: Proceed",
+      "expectedImpact": "Projected to affect 7 venues",
+      "riskAssessment": "Low"
+    },
+    {
+      "changeId": "venue_coors_field_adjustment_1754296448644",
+      "timestamp": "2025-08-04T08:34:08.645Z",
+      "description": "venue.coors_field_adjustment adjusted by 3",
+      "component": "venue",
+      "parameter": "coors_field_adjustment",
+      "oldValue": 0,
+      "newValue": 3,
+      "rationale": "Risk: High, Recommendation: Require Additional Analysis",
+      "expectedImpact": "Projected to affect 7 venues",
+      "riskAssessment": "High"
+    },
+    {
+      "changeId": "weather_hot_weather_coefficient_1754296448646",
+      "timestamp": "2025-08-04T08:34:08.646Z",
+      "description": "weather.hot_weather_coefficient adjusted by 0.19999999999999998",
+      "component": "weather",
+      "parameter": "hot_weather_coefficient",
+      "oldValue": 0,
+      "newValue": 0.19999999999999998,
+      "rationale": "Risk: Low, Recommendation: Proceed",
+      "expectedImpact": "Projected to affect 7 venues",
+      "riskAssessment": "Low"
+    },
+    {
+      "changeId": "venue_coors_field_adjustment_1754296473137",
+      "timestamp": "2025-08-04T08:34:33.138Z",
+      "description": "venue.coors_field_adjustment adjusted by 3",
+      "component": "venue",
+      "parameter": "coors_field_adjustment",
+      "oldValue": 0,
+      "newValue": 3,
+      "rationale": "Risk: High, Recommendation: Require Additional Analysis",
+      "expectedImpact": "Projected to affect 7 venues",
+      "riskAssessment": "High"
+    },
+    {
+      "changeId": "weather_hot_weather_coefficient_1754296473139",
+      "timestamp": "2025-08-04T08:34:33.139Z",
+      "description": "weather.hot_weather_coefficient adjusted by 0.19999999999999998",
+      "component": "weather",
+      "parameter": "hot_weather_coefficient",
+      "oldValue": 0,
+      "newValue": 0.19999999999999998,
+      "rationale": "Risk: Low, Recommendation: Proceed",
+      "expectedImpact": "Projected to affect 7 venues",
+      "riskAssessment": "Low"
+    },
+    {
+      "changeId": "weather_hot_weather_coefficient_1754296473140",
+      "timestamp": "2025-08-04T08:34:33.140Z",
+      "description": "weather.hot_weather_coefficient adjusted by 0.19999999999999998",
+      "component": "weather",
+      "parameter": "hot_weather_coefficient",
+      "oldValue": 0,
+      "newValue": 0.19999999999999998,
+      "rationale": "Risk: Low, Recommendation: Proceed",
+      "expectedImpact": "Projected to affect 7 venues",
+      "riskAssessment": "Low"
+    },
+    {
+      "changeId": "venue_coors_field_adjustment_1754296473140",
+      "timestamp": "2025-08-04T08:34:33.140Z",
+      "description": "venue.coors_field_adjustment adjusted by 3",
+      "component": "venue",
+      "parameter": "coors_field_adjustment",
+      "oldValue": 0,
+      "newValue": 3,
+      "rationale": "Risk: High, Recommendation: Require Additional Analysis",
+      "expectedImpact": "Projected to affect 7 venues",
+      "riskAssessment": "High"
+    }
+  ],
+  "performanceMetrics": []
+}
