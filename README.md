@@ -1148,6 +1148,35 @@ npm run betting-stats
 2. **Compare our calculated totals vs actual market lines**
 3. **Skip games with no available betting lines**
 4. **Display market line, bookmaker, and odds in all outputs**
+5. **ALWAYS SHOW ACTUAL RUN LINES** - Display the exact Over/Under totals from sportsbooks, not just "Market Line: X.X"
+6. **Include multiple sportsbooks** when available to show line shopping opportunities
+
+## ⚠️ CRITICAL ANALYSIS GUIDELINES
+
+### STATISTICAL RIGOR REQUIREMENTS:
+**NEVER make definitive conclusions from small sample sizes:**
+1. **Minimum 30 games** before claiming model superiority
+2. **Minimum 2 weeks** before identifying meaningful trends
+3. **Always report confidence intervals** and sample sizes
+4. **Avoid cherry-picking** single good/bad performance days
+
+### PROHIBITED ANALYSIS LANGUAGE:
+❌ "Model X is superior" (without 30+ game sample)
+❌ "Clear winner" or "definitively better" 
+❌ "Significantly outperformed" (without statistical significance testing)
+❌ Overstating small differences as meaningful
+
+### REQUIRED ANALYSIS LANGUAGE:
+✅ "Based on X games, Model A shows Y% accuracy (small sample)"
+✅ "Day-to-day variance is high, need more data"
+✅ "Performance barely above/below random chance"
+✅ "Sample size too small for reliable conclusions"
+
+### ACCURACY INTERPRETATION:
+- **50-55%**: Essentially random, no meaningful edge
+- **55-58%**: Slight edge, requires large sample to validate
+- **58%+**: Potentially meaningful, still requires validation
+- **Always compare to 52.4% break-even** for -110 betting odds
 
 ### CRITICAL REQUIREMENT: ALL PREDICTIONS MUST BE LOGGED
 
